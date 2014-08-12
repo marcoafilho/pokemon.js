@@ -1,0 +1,25 @@
+.clickable {
+    cursor: pointer;
+}
+
+.style-presenter {
+    height: 160px;
+}
+
+@media (min-width: 768) {
+    .panel-style-tester {
+         width: 220px;
+    }
+}
+
+@media (min-width: 992px) {
+    .panel-style-tester {
+         width: 293px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .panel-style-tester {
+         width: 360px;
+    }
+}

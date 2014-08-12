@@ -1,0 +1,206 @@
+.pokeball {
+    background-image: url(../img/pokeballs.png);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.pokeball.poke-ball {
+    background-position: 0 -20px;
+}
+
+.pokeball.active.poke-ball, .pokeball.poke-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.great-ball {
+    background-position: -20px -20px;
+}
+
+.pokeball.active.great-ball, .pokeball.great-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.ultra-ball {
+    background-position: -40px -20px;
+}
+
+.pokeball.active.ultra-ball, .pokeball.ultra-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.master-ball {
+    background-position: -60px -20px;
+}
+
+.pokeball.active.master-ball, .pokeball.master-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.premier-ball {
+    background-position: -80px -20px;
+}
+
+.pokeball.active.premier-ball, .pokeball.premier-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.cherish-ball {
+    background-position: -100px -20px;
+}
+
+.pokeball.active.cherish-ball, .pokeball.cherish-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.luxury-ball {
+    background-position: -120px -20px;
+}
+
+.pokeball.active.luxury-ball, .pokeball.luxury-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.nest-ball {
+    background-position: -140px -20px;
+}
+
+.pokeball.active.nest-ball, .pokeball.nest-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.net-ball {
+    background-position: -160px -20px;
+}
+
+.pokeball.active.net-ball, .pokeball.net-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.dive-ball {
+    background-position: -180px -20px;
+}
+
+.pokeball.active.dive-ball, .pokeball.dive-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.repeat-ball {
+    background-position: -200px -20px;
+}
+
+.pokeball.active.repeat-ball, .pokeball.repeat-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.timer-ball {
+    background-position: -220px -20px;
+}
+
+.pokeball.active.timer-ball, .pokeball.timer-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.safari-ball {
+    background-position: -240px -20px;
+}
+
+.pokeball.active.safari-ball, .pokeball.safari-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.quick-ball {
+    background-position: -260px -20px;
+}
+
+.pokeball.active.quick-ball, .pokeball.quick-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.dusk-ball {
+    background-position: -280px -20px;
+}
+
+.pokeball.active.dusk-ball, .pokeball.dusk-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.heal-ball {
+    background-position: -300px -20px;
+}
+
+.pokeball.active.heal-ball, .pokeball.heal-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.sport-ball {
+    background-position: -320px -20px;
+}
+
+.pokeball.active.sport-ball, .pokeball.sport-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.fast-ball {
+    background-position: -340px -20px;
+}
+
+.pokeball.active.fast-ball, .pokeball.fast-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.friend-ball {
+    background-position: -360px -20px;
+}
+
+.pokeball.active.friend-ball, .pokeball.friend-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.heavy-ball {
+    background-position: -380px -20px;
+}
+
+.pokeball.active.heavy-ball, .pokeball.heavy-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.level-ball {
+    background-position: -400px -20px;
+}
+
+.pokeball.active.level-ball, .pokeball.level-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.love-ball {
+    background-position: -420px -20px;
+}
+
+.pokeball.active.love-ball, .pokeball.love-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.lure-ball {
+    background-position: -440px -20px;
+}
+
+.pokeball.active.lure-ball, .pokeball.lure-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.moon-ball {
+    background-position: -460px -20px;
+}
+
+.pokeball.active.moon-ball, .pokeball.moon-ball:hover {
+    background-position-y: 0;
+}
+
+.pokeball.park-ball {
+    background-position: -480px -20px;
+}
+
+.pokeball.active.park-ball, .pokeball.park-ball:hover {
+    background-position-y: 0;
+}

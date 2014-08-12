@@ -1,0 +1,2437 @@
+.pokemon {
+    background-image: url(../img/pokemons.png);
+    display: inline-block;
+}
+
+.pokemon.front {
+    height: 66px;
+    width: 66px;
+}
+
+.pokemon.back {
+    height: 66px;
+    width: 65px;
+}
+
+.pokemon.small {
+    height: 32px;
+    width: 31px;
+}
+
+.pokemon.front.bulbasaur {
+    background-position: 0 0;
+}
+
+.pokemon.back.bulbasaur {
+    background-position: -66px 0;
+}
+
+.pokemon.small.small-up.bulbasaur {
+    background-position: -131px -2px;
+}
+
+.pokemon.small.small-down.bulbasaur {
+    background-position: -131px -34px;
+}
+
+.pokemon.front.ivysaur {
+    background-position: -162px 0;
+}
+
+.pokemon.back.ivysaur {
+    background-position: -228px 0;
+}
+
+.pokemon.small.small-up.ivysaur {
+    background-position: -293px -2px;
+}
+
+.pokemon.small.small-down.ivysaur {
+    background-position: -293px -34px;
+}
+
+.pokemon.front.venusaur {
+    background-position: -324px 0;
+}
+
+.pokemon.back.venusaur {
+    background-position: -390px 0;
+}
+
+.pokemon.small.small-up.venusaur {
+    background-position: -455px -2px;
+}
+
+.pokemon.small.small-down.venusaur {
+    background-position: -455px -34px;
+}
+
+.pokemon.front.charmander {
+    background-position: -486px 0;
+}
+
+.pokemon.back.charmander {
+    background-position: -552px 0;
+}
+
+.pokemon.small.small-up.charmander {
+    background-position: -617px -2px;
+}
+
+.pokemon.small.small-down.charmander {
+    background-position: -617px -34px;
+}
+
+.pokemon.front.charmeleon {
+    background-position: -648px 0;
+}
+
+.pokemon.back.charmeleon {
+    background-position: -714px 0;
+}
+
+.pokemon.small.small-up.charmeleon {
+    background-position: -779px -2px;
+}
+
+.pokemon.small.small-down.charmeleon {
+    background-position: -779px -34px;
+}
+
+.pokemon.front.charizard {
+    background-position: -810px 0;
+}
+
+.pokemon.back.charizard {
+    background-position: -876px 0;
+}
+
+.pokemon.small.small-up.charizard {
+    background-position: -941px -2px;
+}
+
+.pokemon.small.small-down.charizard {
+    background-position: -941px -34px;
+}
+
+.pokemon.front.squirtle {
+    background-position: -972px 0;
+}
+
+.pokemon.back.squirtle {
+    background-position: -1038px 0;
+}
+
+.pokemon.small.small-up.squirtle {
+    background-position: -1103px -2px;
+}
+
+.pokemon.small.small-down.squirtle {
+    background-position: -1103px -34px;
+}
+
+.pokemon.front.wartortle {
+    background-position: -1134px 0;
+}
+
+.pokemon.back.wartortle {
+    background-position: -1200px 0;
+}
+
+.pokemon.small.small-up.wartortle {
+    background-position: -1265px -2px;
+}
+
+.pokemon.small.small-down.wartortle {
+    background-position: -1265px -34px;
+}
+
+.pokemon.front.blastoise {
+    background-position: -1296px 0;
+}
+
+.pokemon.back.blastoise {
+    background-position: -1362px 0;
+}
+
+.pokemon.small.small-up.blastoise {
+    background-position: -1427px -2px;
+}
+
+.pokemon.small.small-down.blastoise {
+    background-position: -1427px -34px;
+}
+
+.pokemon.front.caterpie {
+    background-position: -1458px 0;
+}
+
+.pokemon.back.caterpie {
+    background-position: -1524px 0;
+}
+
+.pokemon.small.small-up.caterpie {
+    background-position: -1589px -2px;
+}
+
+.pokemon.small.small-down.caterpie {
+    background-position: -1589px -34px;
+}
+
+.pokemon.front.metapod {
+    background-position: 0 -66px;
+}
+
+.pokemon.back.metapod {
+    background-position: -66px -66px;
+}
+
+.pokemon.small.small-up.metapod {
+    background-position: -131px -68px;
+}
+
+.pokemon.small.small-down.metapod {
+    background-position: -131px -100px;
+}
+
+.pokemon.front.butterfree {
+    background-position: -162px -66px;
+}
+
+.pokemon.back.butterfree {
+    background-position: -228px -66px;
+}
+
+.pokemon.small.small-up.butterfree {
+    background-position: -293px -68px;
+}
+
+.pokemon.small.small-down.butterfree {
+    background-position: -293px -100px;
+}
+
+.pokemon.front.weedle {
+    background-position: -324px -66px;
+}
+
+.pokemon.back.weedle {
+    background-position: -390px -66px;
+}
+
+.pokemon.small.small-up.weedle {
+    background-position: -455px -68px;
+}
+
+.pokemon.small.small-down.weedle {
+    background-position: -455px -100px;
+}
+
+.pokemon.front.kakuna {
+    background-position: -486px -66px;
+}
+
+.pokemon.back.kakuna {
+    background-position: -552px -66px;
+}
+
+.pokemon.small.small-up.kakuna {
+    background-position: -617px -68px;
+}
+
+.pokemon.small.small-down.kakuna {
+    background-position: -617px -100px;
+}
+
+.pokemon.front.beedrill {
+    background-position: -648px -66px;
+}
+
+.pokemon.back.beedrill {
+    background-position: -714px -66px;
+}
+
+.pokemon.small.small-up.beedrill {
+    background-position: -779px -68px;
+}
+
+.pokemon.small.small-down.beedrill {
+    background-position: -779px -100px;
+}
+
+.pokemon.front.pidgey {
+    background-position: -810px -66px;
+}
+
+.pokemon.back.pidgey {
+    background-position: -876px -66px;
+}
+
+.pokemon.small.small-up.pidgey {
+    background-position: -941px -68px;
+}
+
+.pokemon.small.small-down.pidgey {
+    background-position: -941px -100px;
+}
+
+.pokemon.front.pidgeotto {
+    background-position: -972px -66px;
+}
+
+.pokemon.back.pidgeotto {
+    background-position: -1038px -66px;
+}
+
+.pokemon.small.small-up.pidgeotto {
+    background-position: -1103px -68px;
+}
+
+.pokemon.small.small-down.pidgeotto {
+    background-position: -1103px -100px;
+}
+
+.pokemon.front.pidgeot {
+    background-position: -1134px -66px;
+}
+
+.pokemon.back.pidgeot {
+    background-position: -1200px -66px;
+}
+
+.pokemon.small.small-up.pidgeot {
+    background-position: -1265px -68px;
+}
+
+.pokemon.small.small-down.pidgeot {
+    background-position: -1265px -100px;
+}
+
+.pokemon.front.ratata {
+    background-position: -1296px -66px;
+}
+
+.pokemon.back.ratata {
+    background-position: -1362px -66px;
+}
+
+.pokemon.small.small-up.ratata {
+    background-position: -1427px -68px;
+}
+
+.pokemon.small.small-down.ratata {
+    background-position: -1427px -100px;
+}
+
+.pokemon.front.raticate {
+    background-position: -1458px -66px;
+}
+
+.pokemon.back.raticate {
+    background-position: -1524px -66px;
+}
+
+.pokemon.small.small-up.raticate {
+    background-position: -1589px -68px;
+}
+
+.pokemon.small.small-down.raticate {
+    background-position: -1589px -100px;
+}
+
+.pokemon.front.spearow {
+    background-position: 0 -132px;
+}
+
+.pokemon.back.spearow {
+    background-position: -66px -132px;
+}
+
+.pokemon.small.small-up.spearow {
+    background-position: -131px -134px;
+}
+
+.pokemon.small.small-down.spearow {
+    background-position: -131px -166px;
+}
+
+.pokemon.front.fearow {
+    background-position: -162px -132px;
+}
+
+.pokemon.back.fearow {
+    background-position: -228px -132px;
+}
+
+.pokemon.small.small-up.fearow {
+    background-position: -293px -134px;
+}
+
+.pokemon.small.small-down.fearow {
+    background-position: -293px -166px;
+}
+
+.pokemon.front.ekans {
+    background-position: -324px -132px;
+}
+
+.pokemon.back.ekans {
+    background-position: -390px -132px;
+}
+
+.pokemon.small.small-up.ekans {
+    background-position: -455px -134px;
+}
+
+.pokemon.small.small-down.ekans {
+    background-position: -455px -166px;
+}
+
+.pokemon.front.arbok {
+    background-position: -486px -132px;
+}
+
+.pokemon.back.arbok {
+    background-position: -552px -132px;
+}
+
+.pokemon.small.small-up.arbok {
+    background-position: -617px -134px;
+}
+
+.pokemon.small.small-down.arbok {
+    background-position: -617px -166px;
+}
+
+.pokemon.front.pikachu {
+    background-position: -648px -132px;
+}
+
+.pokemon.back.pikachu {
+    background-position: -714px -132px;
+}
+
+.pokemon.small.small-up.pikachu {
+    background-position: -779px -134px;
+}
+
+.pokemon.small.small-down.pikachu {
+    background-position: -779px -166px;
+}
+
+.pokemon.front.raichu {
+    background-position: -810px -132px;
+}
+
+.pokemon.back.raichu {
+    background-position: -876px -132px;
+}
+
+.pokemon.small.small-up.raichu {
+    background-position: -941px -134px;
+}
+
+.pokemon.small.small-down.raichu {
+    background-position: -941px -166px;
+}
+
+.pokemon.front.sandshrew {
+    background-position: -972px -132px;
+}
+
+.pokemon.back.sandshrew {
+    background-position: -1038px -132px;
+}
+
+.pokemon.small.small-up.sandshrew {
+    background-position: -1103px -134px;
+}
+
+.pokemon.small.small-down.sandshrew {
+    background-position: -1103px -166px;
+}
+
+.pokemon.front.sandslash {
+    background-position: -1134px -132px;
+}
+
+.pokemon.back.sandslash {
+    background-position: -1200px -132px;
+}
+
+.pokemon.small.small-up.sandslash {
+    background-position: -1265px -134px;
+}
+
+.pokemon.small.small-down.sandslash {
+    background-position: -1265px -166px;
+}
+
+.pokemon.front.nidoran-female {
+    background-position: -1296px -132px;
+}
+
+.pokemon.back.nidoran-female {
+    background-position: -1362px -132px;
+}
+
+.pokemon.small.small-up.nidoran-female {
+    background-position: -1427px -134px;
+}
+
+.pokemon.small.small-down.nidoran-female {
+    background-position: -1427px -166px;
+}
+
+.pokemon.front.nidorina {
+    background-position: -1458px -132px;
+}
+
+.pokemon.back.nidorina {
+    background-position: -1524px -132px;
+}
+
+.pokemon.small.small-up.nidorina {
+    background-position: -1589px -134px;
+}
+
+.pokemon.small.small-down.nidorina {
+    background-position: -1589px -166px;
+}
+
+.pokemon.front.nidoqueen {
+    background-position: 0 -198px;
+}
+
+.pokemon.back.nidoqueen {
+    background-position: -66px -198px;
+}
+
+.pokemon.small.small-up.nidoqueen {
+    background-position: -131px -200px;
+}
+
+.pokemon.small.small-down.nidoqueen {
+    background-position: -131px -232px;
+}
+
+.pokemon.front.nidoran-male {
+    background-position: -162px -198px;
+}
+
+.pokemon.back.nidoran-male {
+    background-position: -228px -198px;
+}
+
+.pokemon.small.small-up.nidoran-male {
+    background-position: -293px -200px;
+}
+
+.pokemon.small.small-down.nidoran-male {
+    background-position: -293px -232px;
+}
+
+.pokemon.front.nidorino {
+    background-position: -324px -198px;
+}
+
+.pokemon.back.nidorino {
+    background-position: -390px -198px;
+}
+
+.pokemon.small.small-up.nidorino {
+    background-position: -455px -200px;
+}
+
+.pokemon.small.small-down.nidorino {
+    background-position: -455px -232px;
+}
+
+.pokemon.front.nidoking {
+    background-position: -486px -198px;
+}
+
+.pokemon.back.nidoking {
+    background-position: -552px -198px;
+}
+
+.pokemon.small.small-up.nidoking {
+    background-position: -617px -200px;
+}
+
+.pokemon.small.small-down.nidoking {
+    background-position: -617px -232px;
+}
+
+.pokemon.front.clefairy {
+    background-position: -648px -198px;
+}
+
+.pokemon.back.clefairy {
+    background-position: -714px -198px;
+}
+
+.pokemon.small.small-up.clefairy {
+    background-position: -779px -200px;
+}
+
+.pokemon.small.small-down.clefairy {
+    background-position: -779px -232px;
+}
+
+.pokemon.front.clefable {
+    background-position: -810px -198px;
+}
+
+.pokemon.back.clefable {
+    background-position: -876px -198px;
+}
+
+.pokemon.small.small-up.clefable {
+    background-position: -941px -200px;
+}
+
+.pokemon.small.small-down.clefable {
+    background-position: -941px -232px;
+}
+
+.pokemon.front.vulpix {
+    background-position: -972px -198px;
+}
+
+.pokemon.back.vulpix {
+    background-position: -1038px -198px;
+}
+
+.pokemon.small.small-up.vulpix {
+    background-position: -1103px -200px;
+}
+
+.pokemon.small.small-down.vulpix {
+    background-position: -1103px -232px;
+}
+
+.pokemon.front.ninetales {
+    background-position: -1134px -198px;
+}
+
+.pokemon.back.ninetales {
+    background-position: -1200px -198px;
+}
+
+.pokemon.small.small-up.ninetales {
+    background-position: -1265px -200px;
+}
+
+.pokemon.small.small-down.ninetales {
+    background-position: -1265px -232px;
+}
+
+.pokemon.front.jigglypuff {
+    background-position: -1296px -198px;
+}
+
+.pokemon.back.jigglypuff {
+    background-position: -1362px -198px;
+}
+
+.pokemon.small.small-up.jigglypuff {
+    background-position: -1427px -200px;
+}
+
+.pokemon.small.small-down.jigglypuff {
+    background-position: -1427px -232px;
+}
+
+.pokemon.front.wigglytuff {
+    background-position: -1458px -198px;
+}
+
+.pokemon.back.wigglytuff {
+    background-position: -1524px -198px;
+}
+
+.pokemon.small.small-up.wigglytuff {
+    background-position: -1589px -200px;
+}
+
+.pokemon.small.small-down.wigglytuff {
+    background-position: -1589px -232px;
+}
+
+.pokemon.front.zubat {
+    background-position: 0 -264px;
+}
+
+.pokemon.back.zubat {
+    background-position: -66px -264px;
+}
+
+.pokemon.small.small-up.zubat {
+    background-position: -131px -266px;
+}
+
+.pokemon.small.small-down.zubat {
+    background-position: -131px -298px;
+}
+
+.pokemon.front.golbat {
+    background-position: -162px -264px;
+}
+
+.pokemon.back.golbat {
+    background-position: -228px -264px;
+}
+
+.pokemon.small.small-up.golbat {
+    background-position: -293px -266px;
+}
+
+.pokemon.small.small-down.golbat {
+    background-position: -293px -298px;
+}
+
+.pokemon.front.oddish {
+    background-position: -324px -264px;
+}
+
+.pokemon.back.oddish {
+    background-position: -390px -264px;
+}
+
+.pokemon.small.small-up.oddish {
+    background-position: -455px -266px;
+}
+
+.pokemon.small.small-down.oddish {
+    background-position: -455px -298px;
+}
+
+.pokemon.front.gloom {
+    background-position: -486px -264px;
+}
+
+.pokemon.back.gloom {
+    background-position: -552px -264px;
+}
+
+.pokemon.small.small-up.gloom {
+    background-position: -617px -266px;
+}
+
+.pokemon.small.small-down.gloom {
+    background-position: -617px -298px;
+}
+
+.pokemon.front.vileplume {
+    background-position: -648px -264px;
+}
+
+.pokemon.back.vileplume {
+    background-position: -714px -264px;
+}
+
+.pokemon.small.small-up.vileplume {
+    background-position: -779px -266px;
+}
+
+.pokemon.small.small-down.vileplume {
+    background-position: -779px -298px;
+}
+
+.pokemon.front.paras {
+    background-position: -810px -264px;
+}
+
+.pokemon.back.paras {
+    background-position: -876px -264px;
+}
+
+.pokemon.small.small-up.paras {
+    background-position: -941px -266px;
+}
+
+.pokemon.small.small-down.paras {
+    background-position: -941px -298px;
+}
+
+.pokemon.front.parasect {
+    background-position: -972px -264px;
+}
+
+.pokemon.back.parasect {
+    background-position: -1038px -264px;
+}
+
+.pokemon.small.small-up.parasect {
+    background-position: -1103px -266px;
+}
+
+.pokemon.small.small-down.parasect {
+    background-position: -1103px -298px;
+}
+
+.pokemon.front.venonat {
+    background-position: -1134px -264px;
+}
+
+.pokemon.back.venonat {
+    background-position: -1200px -264px;
+}
+
+.pokemon.small.small-up.venonat {
+    background-position: -1265px -266px;
+}
+
+.pokemon.small.small-down.venonat {
+    background-position: -1265px -298px;
+}
+
+.pokemon.front.venomoth {
+    background-position: -1296px -264px;
+}
+
+.pokemon.back.venomoth {
+    background-position: -1362px -264px;
+}
+
+.pokemon.small.small-up.venomoth {
+    background-position: -1427px -266px;
+}
+
+.pokemon.small.small-down.venomoth {
+    background-position: -1427px -298px;
+}
+
+.pokemon.front.diglett {
+    background-position: -1458px -264px;
+}
+
+.pokemon.back.diglett {
+    background-position: -1524px -264px;
+}
+
+.pokemon.small.small-up.diglett {
+    background-position: -1589px -266px;
+}
+
+.pokemon.small.small-down.diglett {
+    background-position: -1589px -298px;
+}
+
+.pokemon.front.dugtrio {
+    background-position: 0 -330px;
+}
+
+.pokemon.back.dugtrio {
+    background-position: -66px -330px;
+}
+
+.pokemon.small.small-up.dugtrio {
+    background-position: -131px -332px;
+}
+
+.pokemon.small.small-down.dugtrio {
+    background-position: -131px -364px;
+}
+
+.pokemon.front.meowth {
+    background-position: -162px -330px;
+}
+
+.pokemon.back.meowth {
+    background-position: -228px -330px;
+}
+
+.pokemon.small.small-up.meowth {
+    background-position: -293px -332px;
+}
+
+.pokemon.small.small-down.meowth {
+    background-position: -293px -364px;
+}
+
+.pokemon.front.persian {
+    background-position: -324px -330px;
+}
+
+.pokemon.back.persian {
+    background-position: -390px -330px;
+}
+
+.pokemon.small.small-up.persian {
+    background-position: -455px -332px;
+}
+
+.pokemon.small.small-down.persian {
+    background-position: -455px -364px;
+}
+
+.pokemon.front.psyduck {
+    background-position: -486px -330px;
+}
+
+.pokemon.back.psyduck {
+    background-position: -552px -330px;
+}
+
+.pokemon.small.small-up.psyduck {
+    background-position: -617px -332px;
+}
+
+.pokemon.small.small-down.psyduck {
+    background-position: -617px -364px;
+}
+
+.pokemon.front.golduck {
+    background-position: -648px -330px;
+}
+
+.pokemon.back.golduck {
+    background-position: -714px -330px;
+}
+
+.pokemon.small.small-up.golduck {
+    background-position: -779px -332px;
+}
+
+.pokemon.small.small-down.golduck {
+    background-position: -779px -364px;
+}
+
+.pokemon.front.mankey {
+    background-position: -810px -330px;
+}
+
+.pokemon.back.mankey {
+    background-position: -876px -330px;
+}
+
+.pokemon.small.small-up.mankey {
+    background-position: -941px -332px;
+}
+
+.pokemon.small.small-down.mankey {
+    background-position: -941px -364px;
+}
+
+.pokemon.front.primeape {
+    background-position: -972px -330px;
+}
+
+.pokemon.back.primeape {
+    background-position: -1038px -330px;
+}
+
+.pokemon.small.small-up.primeape {
+    background-position: -1103px -332px;
+}
+
+.pokemon.small.small-down.primeape {
+    background-position: -1103px -364px;
+}
+
+.pokemon.front.growlithe {
+    background-position: -1134px -330px;
+}
+
+.pokemon.back.growlithe {
+    background-position: -1200px -330px;
+}
+
+.pokemon.small.small-up.growlithe {
+    background-position: -1265px -332px;
+}
+
+.pokemon.small.small-down.growlithe {
+    background-position: -1265px -364px;
+}
+
+.pokemon.front.arcanine {
+    background-position: -1296px -330px;
+}
+
+.pokemon.back.arcanine {
+    background-position: -1362px -330px;
+}
+
+.pokemon.small.small-up.arcanine {
+    background-position: -1427px -332px;
+}
+
+.pokemon.small.small-down.arcanine {
+    background-position: -1427px -364px;
+}
+
+.pokemon.front.poliwag {
+    background-position: -1458px -330px;
+}
+
+.pokemon.back.poliwag {
+    background-position: -1524px -330px;
+}
+
+.pokemon.small.small-up.poliwag {
+    background-position: -1589px -332px;
+}
+
+.pokemon.small.small-down.poliwag {
+    background-position: -1589px -364px;
+}
+
+.pokemon.front.poliwhirl {
+    background-position: 0 -396px;
+}
+
+.pokemon.back.poliwhirl {
+    background-position: -66px -396px;
+}
+
+.pokemon.small.small-up.poliwhirl {
+    background-position: -131px -398px;
+}
+
+.pokemon.small.small-down.poliwhirl {
+    background-position: -131px -430px;
+}
+
+.pokemon.front.poliwrath {
+    background-position: -162px -396px;
+}
+
+.pokemon.back.poliwrath {
+    background-position: -228px -396px;
+}
+
+.pokemon.small.small-up.poliwrath {
+    background-position: -293px -398px;
+}
+
+.pokemon.small.small-down.poliwrath {
+    background-position: -293px -430px;
+}
+
+.pokemon.front.abra {
+    background-position: -324px -396px;
+}
+
+.pokemon.back.abra {
+    background-position: -390px -396px;
+}
+
+.pokemon.small.small-up.abra {
+    background-position: -455px -398px;
+}
+
+.pokemon.small.small-down.abra {
+    background-position: -455px -430px;
+}
+
+.pokemon.front.kadabra {
+    background-position: -486px -396px;
+}
+
+.pokemon.back.kadabra {
+    background-position: -552px -396px;
+}
+
+.pokemon.small.small-up.kadabra {
+    background-position: -617px -398px;
+}
+
+.pokemon.small.small-down.kadabra {
+    background-position: -617px -430px;
+}
+
+.pokemon.front.alakazam {
+    background-position: -648px -396px;
+}
+
+.pokemon.back.alakazam {
+    background-position: -714px -396px;
+}
+
+.pokemon.small.small-up.alakazam {
+    background-position: -779px -398px;
+}
+
+.pokemon.small.small-down.alakazam {
+    background-position: -779px -430px;
+}
+
+.pokemon.front.macho {
+    background-position: -810px -396px;
+}
+
+.pokemon.back.macho {
+    background-position: -876px -396px;
+}
+
+.pokemon.small.small-up.macho {
+    background-position: -941px -398px;
+}
+
+.pokemon.small.small-down.macho {
+    background-position: -941px -430px;
+}
+
+.pokemon.front.machoke {
+    background-position: -972px -396px;
+}
+
+.pokemon.back.machoke {
+    background-position: -1038px -396px;
+}
+
+.pokemon.small.small-up.machoke {
+    background-position: -1103px -398px;
+}
+
+.pokemon.small.small-down.machoke {
+    background-position: -1103px -430px;
+}
+
+.pokemon.front.machamp {
+    background-position: -1134px -396px;
+}
+
+.pokemon.back.machamp {
+    background-position: -1200px -396px;
+}
+
+.pokemon.small.small-up.machamp {
+    background-position: -1265px -398px;
+}
+
+.pokemon.small.small-down.machamp {
+    background-position: -1265px -430px;
+}
+
+.pokemon.front.bellsprout {
+    background-position: -1296px -396px;
+}
+
+.pokemon.back.bellsprout {
+    background-position: -1362px -396px;
+}
+
+.pokemon.small.small-up.bellsprout {
+    background-position: -1427px -398px;
+}
+
+.pokemon.small.small-down.bellsprout {
+    background-position: -1427px -430px;
+}
+
+.pokemon.front.weepinbel {
+    background-position: -1458px -396px;
+}
+
+.pokemon.back.weepinbel {
+    background-position: -1524px -396px;
+}
+
+.pokemon.small.small-up.weepinbel {
+    background-position: -1589px -398px;
+}
+
+.pokemon.small.small-down.weepinbel {
+    background-position: -1589px -430px;
+}
+
+.pokemon.front.victrebel {
+    background-position: 0 -462px;
+}
+
+.pokemon.back.victrebel {
+    background-position: -66px -462px;
+}
+
+.pokemon.small.small-up.victrebel {
+    background-position: -131px -464px;
+}
+
+.pokemon.small.small-down.victrebel {
+    background-position: -131px -496px;
+}
+
+.pokemon.front.tentacool {
+    background-position: -162px -462px;
+}
+
+.pokemon.back.tentacool {
+    background-position: -228px -462px;
+}
+
+.pokemon.small.small-up.tentacool {
+    background-position: -293px -464px;
+}
+
+.pokemon.small.small-down.tentacool {
+    background-position: -293px -496px;
+}
+
+.pokemon.front.tentacruel {
+    background-position: -324px -462px;
+}
+
+.pokemon.back.tentacruel {
+    background-position: -390px -462px;
+}
+
+.pokemon.small.small-up.tentacruel {
+    background-position: -455px -464px;
+}
+
+.pokemon.small.small-down.tentacruel {
+    background-position: -455px -496px;
+}
+
+.pokemon.front.geodude {
+    background-position: -486px -462px;
+}
+
+.pokemon.back.geodude {
+    background-position: -552px -462px;
+}
+
+.pokemon.small.small-up.geodude {
+    background-position: -617px -464px;
+}
+
+.pokemon.small.small-down.geodude {
+    background-position: -617px -496px;
+}
+
+.pokemon.front.graveler {
+    background-position: -648px -462px;
+}
+
+.pokemon.back.graveler {
+    background-position: -714px -462px;
+}
+
+.pokemon.small.small-up.graveler {
+    background-position: -779px -464px;
+}
+
+.pokemon.small.small-down.graveler {
+    background-position: -779px -496px;
+}
+
+.pokemon.front.golem {
+    background-position: -810px -462px;
+}
+
+.pokemon.back.golem {
+    background-position: -876px -462px;
+}
+
+.pokemon.small.small-up.golem {
+    background-position: -941px -464px;
+}
+
+.pokemon.small.small-down.golem {
+    background-position: -941px -496px;
+}
+
+.pokemon.front.ponyta {
+    background-position: -972px -462px;
+}
+
+.pokemon.back.ponyta {
+    background-position: -1038px -462px;
+}
+
+.pokemon.small.small-up.ponyta {
+    background-position: -1103px -464px;
+}
+
+.pokemon.small.small-down.ponyta {
+    background-position: -1103px -496px;
+}
+
+.pokemon.front.rapidash {
+    background-position: -1134px -462px;
+}
+
+.pokemon.back.rapidash {
+    background-position: -1200px -462px;
+}
+
+.pokemon.small.small-up.rapidash {
+    background-position: -1265px -464px;
+}
+
+.pokemon.small.small-down.rapidash {
+    background-position: -1265px -496px;
+}
+
+.pokemon.front.slowpoke {
+    background-position: -1296px -462px;
+}
+
+.pokemon.back.slowpoke {
+    background-position: -1362px -462px;
+}
+
+.pokemon.small.small-up.slowpoke {
+    background-position: -1427px -464px;
+}
+
+.pokemon.small.small-down.slowpoke {
+    background-position: -1427px -496px;
+}
+
+.pokemon.front.slowbro {
+    background-position: -1458px -462px;
+}
+
+.pokemon.back.slowbro {
+    background-position: -1524px -462px;
+}
+
+.pokemon.small.small-up.slowbro {
+    background-position: -1589px -464px;
+}
+
+.pokemon.small.small-down.slowbro {
+    background-position: -1589px -496px;
+}
+
+.pokemon.front.magnemite {
+    background-position: 0 -528px;
+}
+
+.pokemon.back.magnemite {
+    background-position: -66px -528px;
+}
+
+.pokemon.small.small-up.magnemite {
+    background-position: -131px -530px;
+}
+
+.pokemon.small.small-down.magnemite {
+    background-position: -131px -562px;
+}
+
+.pokemon.front.magneton {
+    background-position: -162px -528px;
+}
+
+.pokemon.back.magneton {
+    background-position: -228px -528px;
+}
+
+.pokemon.small.small-up.magneton {
+    background-position: -293px -530px;
+}
+
+.pokemon.small.small-down.magneton {
+    background-position: -293px -562px;
+}
+
+.pokemon.front.farfetch-d {
+    background-position: -324px -528px;
+}
+
+.pokemon.back.farfetch-d {
+    background-position: -390px -528px;
+}
+
+.pokemon.small.small-up.farfetch-d {
+    background-position: -455px -530px;
+}
+
+.pokemon.small.small-down.farfetch-d {
+    background-position: -455px -562px;
+}
+
+.pokemon.front.doduo {
+    background-position: -486px -528px;
+}
+
+.pokemon.back.doduo {
+    background-position: -552px -528px;
+}
+
+.pokemon.small.small-up.doduo {
+    background-position: -617px -530px;
+}
+
+.pokemon.small.small-down.doduo {
+    background-position: -617px -562px;
+}
+
+.pokemon.front.dodrio {
+    background-position: -648px -528px;
+}
+
+.pokemon.back.dodrio {
+    background-position: -714px -528px;
+}
+
+.pokemon.small.small-up.dodrio {
+    background-position: -779px -530px;
+}
+
+.pokemon.small.small-down.dodrio {
+    background-position: -779px -562px;
+}
+
+.pokemon.front.seel {
+    background-position: -810px -528px;
+}
+
+.pokemon.back.seel {
+    background-position: -876px -528px;
+}
+
+.pokemon.small.small-up.seel {
+    background-position: -941px -530px;
+}
+
+.pokemon.small.small-down.seel {
+    background-position: -941px -562px;
+}
+
+.pokemon.front.dewgong {
+    background-position: -972px -528px;
+}
+
+.pokemon.back.dewgong {
+    background-position: -1038px -528px;
+}
+
+.pokemon.small.small-up.dewgong {
+    background-position: -1103px -530px;
+}
+
+.pokemon.small.small-down.dewgong {
+    background-position: -1103px -562px;
+}
+
+.pokemon.front.grimer {
+    background-position: -1134px -528px;
+}
+
+.pokemon.back.grimer {
+    background-position: -1200px -528px;
+}
+
+.pokemon.small.small-up.grimer {
+    background-position: -1265px -530px;
+}
+
+.pokemon.small.small-down.grimer {
+    background-position: -1265px -562px;
+}
+
+.pokemon.front.muk {
+    background-position: -1296px -528px;
+}
+
+.pokemon.back.muk {
+    background-position: -1362px -528px;
+}
+
+.pokemon.small.small-up.muk {
+    background-position: -1427px -530px;
+}
+
+.pokemon.small.small-down.muk {
+    background-position: -1427px -562px;
+}
+
+.pokemon.front.shellder {
+    background-position: -1458px -528px;
+}
+
+.pokemon.back.shellder {
+    background-position: -1524px -528px;
+}
+
+.pokemon.small.small-up.shellder {
+    background-position: -1589px -530px;
+}
+
+.pokemon.small.small-down.shellder {
+    background-position: -1589px -562px;
+}
+
+.pokemon.front.cloyster {
+    background-position: 0 -594px;
+}
+
+.pokemon.back.cloyster {
+    background-position: -66px -594px;
+}
+
+.pokemon.small.small-up.cloyster {
+    background-position: -131px -596px;
+}
+
+.pokemon.small.small-down.cloyster {
+    background-position: -131px -628px;
+}
+
+.pokemon.front.gastly {
+    background-position: -162px -594px;
+}
+
+.pokemon.back.gastly {
+    background-position: -228px -594px;
+}
+
+.pokemon.small.small-up.gastly {
+    background-position: -293px -596px;
+}
+
+.pokemon.small.small-down.gastly {
+    background-position: -293px -628px;
+}
+
+.pokemon.front.haunter {
+    background-position: -324px -594px;
+}
+
+.pokemon.back.haunter {
+    background-position: -390px -594px;
+}
+
+.pokemon.small.small-up.haunter {
+    background-position: -455px -596px;
+}
+
+.pokemon.small.small-down.haunter {
+    background-position: -455px -628px;
+}
+
+.pokemon.front.gengar {
+    background-position: -486px -594px;
+}
+
+.pokemon.back.gengar {
+    background-position: -552px -594px;
+}
+
+.pokemon.small.small-up.gengar {
+    background-position: -617px -596px;
+}
+
+.pokemon.small.small-down.gengar {
+    background-position: -617px -628px;
+}
+
+.pokemon.front.onix {
+    background-position: -648px -594px;
+}
+
+.pokemon.back.onix {
+    background-position: -714px -594px;
+}
+
+.pokemon.small.small-up.onix {
+    background-position: -779px -596px;
+}
+
+.pokemon.small.small-down.onix {
+    background-position: -779px -628px;
+}
+
+.pokemon.front.drowzee {
+    background-position: -810px -594px;
+}
+
+.pokemon.back.drowzee {
+    background-position: -876px -594px;
+}
+
+.pokemon.small.small-up.drowzee {
+    background-position: -941px -596px;
+}
+
+.pokemon.small.small-down.drowzee {
+    background-position: -941px -628px;
+}
+
+.pokemon.front.hypno {
+    background-position: -972px -594px;
+}
+
+.pokemon.back.hypno {
+    background-position: -1038px -594px;
+}
+
+.pokemon.small.small-up.hypno {
+    background-position: -1103px -596px;
+}
+
+.pokemon.small.small-down.hypno {
+    background-position: -1103px -628px;
+}
+
+.pokemon.front.krabby {
+    background-position: -1134px -594px;
+}
+
+.pokemon.back.krabby {
+    background-position: -1200px -594px;
+}
+
+.pokemon.small.small-up.krabby {
+    background-position: -1265px -596px;
+}
+
+.pokemon.small.small-down.krabby {
+    background-position: -1265px -628px;
+}
+
+.pokemon.front.kingler {
+    background-position: -1296px -594px;
+}
+
+.pokemon.back.kingler {
+    background-position: -1362px -594px;
+}
+
+.pokemon.small.small-up.kingler {
+    background-position: -1427px -596px;
+}
+
+.pokemon.small.small-down.kingler {
+    background-position: -1427px -628px;
+}
+
+.pokemon.front.voltorb {
+    background-position: -1458px -594px;
+}
+
+.pokemon.back.voltorb {
+    background-position: -1524px -594px;
+}
+
+.pokemon.small.small-up.voltorb {
+    background-position: -1589px -596px;
+}
+
+.pokemon.small.small-down.voltorb {
+    background-position: -1589px -628px;
+}
+
+.pokemon.front.electrode {
+    background-position: 0 -660px;
+}
+
+.pokemon.back.electrode {
+    background-position: -66px -660px;
+}
+
+.pokemon.small.small-up.electrode {
+    background-position: -131px -662px;
+}
+
+.pokemon.small.small-down.electrode {
+    background-position: -131px -694px;
+}
+
+.pokemon.front.exeggcute {
+    background-position: -162px -660px;
+}
+
+.pokemon.back.exeggcute {
+    background-position: -228px -660px;
+}
+
+.pokemon.small.small-up.exeggcute {
+    background-position: -293px -662px;
+}
+
+.pokemon.small.small-down.exeggcute {
+    background-position: -293px -694px;
+}
+
+.pokemon.front.exeggutor {
+    background-position: -324px -660px;
+}
+
+.pokemon.back.exeggutor {
+    background-position: -390px -660px;
+}
+
+.pokemon.small.small-up.exeggutor {
+    background-position: -455px -662px;
+}
+
+.pokemon.small.small-down.exeggutor {
+    background-position: -455px -694px;
+}
+
+.pokemon.front.cubone {
+    background-position: -486px -660px;
+}
+
+.pokemon.back.cubone {
+    background-position: -552px -660px;
+}
+
+.pokemon.small.small-up.cubone {
+    background-position: -617px -662px;
+}
+
+.pokemon.small.small-down.cubone {
+    background-position: -617px -694px;
+}
+
+.pokemon.front.marowak {
+    background-position: -648px -660px;
+}
+
+.pokemon.back.marowak {
+    background-position: -714px -660px;
+}
+
+.pokemon.small.small-up.marowak {
+    background-position: -779px -662px;
+}
+
+.pokemon.small.small-down.marowak {
+    background-position: -779px -694px;
+}
+
+.pokemon.front.hitmonlee {
+    background-position: -810px -660px;
+}
+
+.pokemon.back.hitmonlee {
+    background-position: -876px -660px;
+}
+
+.pokemon.small.small-up.hitmonlee {
+    background-position: -941px -662px;
+}
+
+.pokemon.small.small-down.hitmonlee {
+    background-position: -941px -694px;
+}
+
+.pokemon.front.himonchan {
+    background-position: -972px -660px;
+}
+
+.pokemon.back.himonchan {
+    background-position: -1038px -660px;
+}
+
+.pokemon.small.small-up.himonchan {
+    background-position: -1103px -662px;
+}
+
+.pokemon.small.small-down.himonchan {
+    background-position: -1103px -694px;
+}
+
+.pokemon.front.lickitung {
+    background-position: -1134px -660px;
+}
+
+.pokemon.back.lickitung {
+    background-position: -1200px -660px;
+}
+
+.pokemon.small.small-up.lickitung {
+    background-position: -1265px -662px;
+}
+
+.pokemon.small.small-down.lickitung {
+    background-position: -1265px -694px;
+}
+
+.pokemon.front.koffing {
+    background-position: -1296px -660px;
+}
+
+.pokemon.back.koffing {
+    background-position: -1362px -660px;
+}
+
+.pokemon.small.small-up.koffing {
+    background-position: -1427px -662px;
+}
+
+.pokemon.small.small-down.koffing {
+    background-position: -1427px -694px;
+}
+
+.pokemon.front.weezing {
+    background-position: -1458px -660px;
+}
+
+.pokemon.back.weezing {
+    background-position: -1524px -660px;
+}
+
+.pokemon.small.small-up.weezing {
+    background-position: -1589px -662px;
+}
+
+.pokemon.small.small-down.weezing {
+    background-position: -1589px -694px;
+}
+
+.pokemon.front.rhyhorn {
+    background-position: 0 -726px;
+}
+
+.pokemon.back.rhyhorn {
+    background-position: -66px -726px;
+}
+
+.pokemon.small.small-up.rhyhorn {
+    background-position: -131px -728px;
+}
+
+.pokemon.small.small-down.rhyhorn {
+    background-position: -131px -760px;
+}
+
+.pokemon.front.rhydon {
+    background-position: -162px -726px;
+}
+
+.pokemon.back.rhydon {
+    background-position: -228px -726px;
+}
+
+.pokemon.small.small-up.rhydon {
+    background-position: -293px -728px;
+}
+
+.pokemon.small.small-down.rhydon {
+    background-position: -293px -760px;
+}
+
+.pokemon.front.chansey {
+    background-position: -324px -726px;
+}
+
+.pokemon.back.chansey {
+    background-position: -390px -726px;
+}
+
+.pokemon.small.small-up.chansey {
+    background-position: -455px -728px;
+}
+
+.pokemon.small.small-down.chansey {
+    background-position: -455px -760px;
+}
+
+.pokemon.front.tangela {
+    background-position: -486px -726px;
+}
+
+.pokemon.back.tangela {
+    background-position: -552px -726px;
+}
+
+.pokemon.small.small-up.tangela {
+    background-position: -617px -728px;
+}
+
+.pokemon.small.small-down.tangela {
+    background-position: -617px -760px;
+}
+
+.pokemon.front.kangaskhan {
+    background-position: -648px -726px;
+}
+
+.pokemon.back.kangaskhan {
+    background-position: -714px -726px;
+}
+
+.pokemon.small.small-up.kangaskhan {
+    background-position: -779px -728px;
+}
+
+.pokemon.small.small-down.kangaskhan {
+    background-position: -779px -760px;
+}
+
+.pokemon.front.horsea {
+    background-position: -810px -726px;
+}
+
+.pokemon.back.horsea {
+    background-position: -876px -726px;
+}
+
+.pokemon.small.small-up.horsea {
+    background-position: -941px -728px;
+}
+
+.pokemon.small.small-down.horsea {
+    background-position: -941px -760px;
+}
+
+.pokemon.front.seadra {
+    background-position: -972px -726px;
+}
+
+.pokemon.back.seadra {
+    background-position: -1038px -726px;
+}
+
+.pokemon.small.small-up.seadra {
+    background-position: -1103px -728px;
+}
+
+.pokemon.small.small-down.seadra {
+    background-position: -1103px -760px;
+}
+
+.pokemon.front.goldeen {
+    background-position: -1134px -726px;
+}
+
+.pokemon.back.goldeen {
+    background-position: -1200px -726px;
+}
+
+.pokemon.small.small-up.goldeen {
+    background-position: -1265px -728px;
+}
+
+.pokemon.small.small-down.goldeen {
+    background-position: -1265px -760px;
+}
+
+.pokemon.front.seaking {
+    background-position: -1296px -726px;
+}
+
+.pokemon.back.seaking {
+    background-position: -1362px -726px;
+}
+
+.pokemon.small.small-up.seaking {
+    background-position: -1427px -728px;
+}
+
+.pokemon.small.small-down.seaking {
+    background-position: -1427px -760px;
+}
+
+.pokemon.front.staryu {
+    background-position: -1458px -726px;
+}
+
+.pokemon.back.staryu {
+    background-position: -1524px -726px;
+}
+
+.pokemon.small.small-up.staryu {
+    background-position: -1589px -728px;
+}
+
+.pokemon.small.small-down.staryu {
+    background-position: -1589px -760px;
+}
+
+.pokemon.front.starmie {
+    background-position: 0 -792px;
+}
+
+.pokemon.back.starmie {
+    background-position: -66px -792px;
+}
+
+.pokemon.small.small-up.starmie {
+    background-position: -131px -794px;
+}
+
+.pokemon.small.small-down.starmie {
+    background-position: -131px -826px;
+}
+
+.pokemon.front.mr-mime {
+    background-position: -162px -792px;
+}
+
+.pokemon.back.mr-mime {
+    background-position: -228px -792px;
+}
+
+.pokemon.small.small-up.mr-mime {
+    background-position: -293px -794px;
+}
+
+.pokemon.small.small-down.mr-mime {
+    background-position: -293px -826px;
+}
+
+.pokemon.front.scyther {
+    background-position: -324px -792px;
+}
+
+.pokemon.back.scyther {
+    background-position: -390px -792px;
+}
+
+.pokemon.small.small-up.scyther {
+    background-position: -455px -794px;
+}
+
+.pokemon.small.small-down.scyther {
+    background-position: -455px -826px;
+}
+
+.pokemon.front.jynx {
+    background-position: -486px -792px;
+}
+
+.pokemon.back.jynx {
+    background-position: -552px -792px;
+}
+
+.pokemon.small.small-up.jynx {
+    background-position: -617px -794px;
+}
+
+.pokemon.small.small-down.jynx {
+    background-position: -617px -826px;
+}
+
+.pokemon.front.electabuzz {
+    background-position: -648px -792px;
+}
+
+.pokemon.back.electabuzz {
+    background-position: -714px -792px;
+}
+
+.pokemon.small.small-up.electabuzz {
+    background-position: -779px -794px;
+}
+
+.pokemon.small.small-down.electabuzz {
+    background-position: -779px -826px;
+}
+
+.pokemon.front.magmar {
+    background-position: -810px -792px;
+}
+
+.pokemon.back.magmar {
+    background-position: -876px -792px;
+}
+
+.pokemon.small.small-up.magmar {
+    background-position: -941px -794px;
+}
+
+.pokemon.small.small-down.magmar {
+    background-position: -941px -826px;
+}
+
+.pokemon.front.pinsir {
+    background-position: -972px -792px;
+}
+
+.pokemon.back.pinsir {
+    background-position: -1038px -792px;
+}
+
+.pokemon.small.small-up.pinsir {
+    background-position: -1103px -794px;
+}
+
+.pokemon.small.small-down.pinsir {
+    background-position: -1103px -826px;
+}
+
+.pokemon.front.tauros {
+    background-position: -1134px -792px;
+}
+
+.pokemon.back.tauros {
+    background-position: -1200px -792px;
+}
+
+.pokemon.small.small-up.tauros {
+    background-position: -1265px -794px;
+}
+
+.pokemon.small.small-down.tauros {
+    background-position: -1265px -826px;
+}
+
+.pokemon.front.magikarp {
+    background-position: -1296px -792px;
+}
+
+.pokemon.back.magikarp {
+    background-position: -1362px -792px;
+}
+
+.pokemon.small.small-up.magikarp {
+    background-position: -1427px -794px;
+}
+
+.pokemon.small.small-down.magikarp {
+    background-position: -1427px -826px;
+}
+
+.pokemon.front.gyarados {
+    background-position: -1458px -792px;
+}
+
+.pokemon.back.gyarados {
+    background-position: -1524px -792px;
+}
+
+.pokemon.small.small-up.gyarados {
+    background-position: -1589px -794px;
+}
+
+.pokemon.small.small-down.gyarados {
+    background-position: -1589px -826px;
+}
+
+.pokemon.front.lapras {
+    background-position: 0 -858px;
+}
+
+.pokemon.back.lapras {
+    background-position: -66px -858px;
+}
+
+.pokemon.small.small-up.lapras {
+    background-position: -131px -860px;
+}
+
+.pokemon.small.small-down.lapras {
+    background-position: -131px -892px;
+}
+
+.pokemon.front.ditto {
+    background-position: -162px -858px;
+}
+
+.pokemon.back.ditto {
+    background-position: -228px -858px;
+}
+
+.pokemon.small.small-up.ditto {
+    background-position: -293px -860px;
+}
+
+.pokemon.small.small-down.ditto {
+    background-position: -293px -892px;
+}
+
+.pokemon.front.eevee {
+    background-position: -324px -858px;
+}
+
+.pokemon.back.eevee {
+    background-position: -390px -858px;
+}
+
+.pokemon.small.small-up.eevee {
+    background-position: -455px -860px;
+}
+
+.pokemon.small.small-down.eevee {
+    background-position: -455px -892px;
+}
+
+.pokemon.front.vaporeon {
+    background-position: -486px -858px;
+}
+
+.pokemon.back.vaporeon {
+    background-position: -552px -858px;
+}
+
+.pokemon.small.small-up.vaporeon {
+    background-position: -617px -860px;
+}
+
+.pokemon.small.small-down.vaporeon {
+    background-position: -617px -892px;
+}
+
+.pokemon.front.jolteon {
+    background-position: -648px -858px;
+}
+
+.pokemon.back.jolteon {
+    background-position: -714px -858px;
+}
+
+.pokemon.small.small-up.jolteon {
+    background-position: -779px -860px;
+}
+
+.pokemon.small.small-down.jolteon {
+    background-position: -779px -892px;
+}
+
+.pokemon.front.flareon {
+    background-position: -810px -858px;
+}
+
+.pokemon.back.flareon {
+    background-position: -876px -858px;
+}
+
+.pokemon.small.small-up.flareon {
+    background-position: -941px -860px;
+}
+
+.pokemon.small.small-down.flareon {
+    background-position: -941px -892px;
+}
+
+.pokemon.front.porygon {
+    background-position: -972px -858px;
+}
+
+.pokemon.back.porygon {
+    background-position: -1038px -858px;
+}
+
+.pokemon.small.small-up.porygon {
+    background-position: -1103px -860px;
+}
+
+.pokemon.small.small-down.porygon {
+    background-position: -1103px -892px;
+}
+
+.pokemon.front.omanyte {
+    background-position: -1134px -858px;
+}
+
+.pokemon.back.omanyte {
+    background-position: -1200px -858px;
+}
+
+.pokemon.small.small-up.omanyte {
+    background-position: -1265px -860px;
+}
+
+.pokemon.small.small-down.omanyte {
+    background-position: -1265px -892px;
+}
+
+.pokemon.front.omastar {
+    background-position: -1296px -858px;
+}
+
+.pokemon.back.omastar {
+    background-position: -1362px -858px;
+}
+
+.pokemon.small.small-up.omastar {
+    background-position: -1427px -860px;
+}
+
+.pokemon.small.small-down.omastar {
+    background-position: -1427px -892px;
+}
+
+.pokemon.front.kabuto {
+    background-position: -1458px -858px;
+}
+
+.pokemon.back.kabuto {
+    background-position: -1524px -858px;
+}
+
+.pokemon.small.small-up.kabuto {
+    background-position: -1589px -860px;
+}
+
+.pokemon.small.small-down.kabuto {
+    background-position: -1589px -892px;
+}
+
+.pokemon.front.kabutops {
+    background-position: 0 -924px;
+}
+
+.pokemon.back.kabutops {
+    background-position: -66px -924px;
+}
+
+.pokemon.small.small-up.kabutops {
+    background-position: -131px -926px;
+}
+
+.pokemon.small.small-down.kabutops {
+    background-position: -131px -958px;
+}
+
+.pokemon.front.aerodactyl {
+    background-position: -162px -924px;
+}
+
+.pokemon.back.aerodactyl {
+    background-position: -228px -924px;
+}
+
+.pokemon.small.small-up.aerodactyl {
+    background-position: -293px -926px;
+}
+
+.pokemon.small.small-down.aerodactyl {
+    background-position: -293px -958px;
+}
+
+.pokemon.front.snorlax {
+    background-position: -324px -924px;
+}
+
+.pokemon.back.snorlax {
+    background-position: -390px -924px;
+}
+
+.pokemon.small.small-up.snorlax {
+    background-position: -455px -926px;
+}
+
+.pokemon.small.small-down.snorlax {
+    background-position: -455px -958px;
+}
+
+.pokemon.front.articuno {
+    background-position: -486px -924px;
+}
+
+.pokemon.back.articuno {
+    background-position: -552px -924px;
+}
+
+.pokemon.small.small-up.articuno {
+    background-position: -617px -926px;
+}
+
+.pokemon.small.small-down.articuno {
+    background-position: -617px -958px;
+}
+
+.pokemon.front.zapdos {
+    background-position: -648px -924px;
+}
+
+.pokemon.back.zapdos {
+    background-position: -714px -924px;
+}
+
+.pokemon.small.small-up.zapdos {
+    background-position: -779px -926px;
+}
+
+.pokemon.small.small-down.zapdos {
+    background-position: -779px -958px;
+}
+
+.pokemon.front.moltres {
+    background-position: -810px -924px;
+}
+
+.pokemon.back.moltres {
+    background-position: -876px -924px;
+}
+
+.pokemon.small.small-up.moltres {
+    background-position: -941px -926px;
+}
+
+.pokemon.small.small-down.moltres {
+    background-position: -941px -958px;
+}
+
+.pokemon.front.dratini {
+    background-position: -972px -924px;
+}
+
+.pokemon.back.dratini {
+    background-position: -1038px -924px;
+}
+
+.pokemon.small.small-up.dratini {
+    background-position: -1103px -926px;
+}
+
+.pokemon.small.small-down.dratini {
+    background-position: -1103px -958px;
+}
+
+.pokemon.front.dragonair {
+    background-position: -1134px -924px;
+}
+
+.pokemon.back.dragonair {
+    background-position: -1200px -924px;
+}
+
+.pokemon.small.small-up.dragonair {
+    background-position: -1265px -926px;
+}
+
+.pokemon.small.small-down.dragonair {
+    background-position: -1265px -958px;
+}
+
+.pokemon.front.dragonite {
+    background-position: -1296px -924px;
+}
+
+.pokemon.back.dragonite {
+    background-position: -1362px -924px;
+}
+
+.pokemon.small.small-up.dragonite {
+    background-position: -1427px -926px;
+}
+
+.pokemon.small.small-down.dragonite {
+    background-position: -1427px -958px;
+}
+
+.pokemon.front.mewtwo {
+    background-position: -1458px -924px;
+}
+
+.pokemon.back.mewtwo {
+    background-position: -1524px -924px;
+}
+
+.pokemon.small.small-up.mewtwo {
+    background-position: -1589px -926px;
+}
+
+.pokemon.small.small-down.mewtwo {
+    background-position: -1589px -958px;
+}
+
+.pokemon.front.mew {
+    background-position: 0 -990px;
+}
+
+.pokemon.back.mew {
+    background-position: -66px -990px;
+}
+
+.pokemon.small.small-up.mew {
+    background-position: -131px -992px;
+}
+
+.pokemon.small.small-down.mew {
+    background-position: -131px -1024px;
+}
+
+

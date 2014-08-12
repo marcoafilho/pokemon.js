@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokémon® JS - Stylesheet generator</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=VT323">
+    <link rel="stylesheet" href="css/stylesheet_generator.css">
+</head>
+<body>
+    <main class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <pre class="stylesheets"></pre>
+            </div>
+            <div class="col-xs-12 col-sm-4 hidden-xs">
+                <div class="panel panel-default panel-style-tester" data-spy="affix" data-offset-top="10">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Test your style</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form action="" role="form" id="style_finder">
+                            <div class="input-group">
+                                <input type="text" class="form-control style-handler" placeholder="Input the desired classes">
+                                <span class="input-group-addon style-cleaner clickable"><i class="fa fa-times"></i></span>
+                            </div>
+                            <div class="style-presenter">
+                                <div></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/lib/stylesheet_generator.js"></script>
+    <script src="js/stylesheet_generator_view.js"></script>
+</body>
+</html>

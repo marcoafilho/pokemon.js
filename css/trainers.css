@@ -1,0 +1,524 @@
+.trainer {
+    background-image: url(../img/trainers.png);
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+}
+
+.trainer.ethan {
+    background-position: 0 0;
+}
+
+.trainer.lyra {
+    background-position: -80px 0;
+}
+
+.trainer.little-boy {
+    background-position: -160px 0;
+}
+
+.trainer.little-girl {
+    background-position: -240px 0;
+}
+
+.trainer.scout-boy {
+    background-position: -320px 0;
+}
+
+.trainer.scout-girl {
+    background-position: -400px 0;
+}
+
+.trainer.bug-catcher-boy {
+    background-position: -480px 0;
+}
+
+.trainer.essence-lady {
+    background-position: -560px 0;
+}
+
+.trainer.twins {
+    background-position: -640px 0;
+}
+
+.trainer.hiker {
+    background-position: -720px 0;
+}
+
+.trainer.kung-fu-girl {
+    background-position: -800px 0;
+}
+
+.trainer.fisher {
+    background-position: -880px 0;
+}
+
+.trainer.biker-man {
+    background-position: 0 -80px;
+}
+
+.trainer.biker-woman {
+    background-position: -80px -80px;
+}
+
+.trainer.karate-man {
+    background-position: -160px -80px;
+}
+
+.trainer.painter {
+    background-position: -240px -80px;
+}
+
+.trainer.breeder-guy {
+    background-position: -320px -80px;
+}
+
+.trainer.breeder-lady {
+    background-position: -400px -80px;
+}
+
+.trainer.cowgirl {
+    background-position: -480px -80px;
+}
+
+.trainer.runner {
+    background-position: -560px -80px;
+}
+
+.trainer.daddy {
+    background-position: -640px -80px;
+}
+
+.trainer.mommy {
+    background-position: -720px -80px;
+}
+
+.trainer.baby {
+    background-position: -800px -80px;
+}
+
+.trainer.rival {
+    background-position: -880px -80px;
+}
+
+.trainer.student-guy {
+    background-position: 0 -160px;
+}
+
+.trainer.student-girl {
+    background-position: -80px -160px;
+}
+
+.trainer.waitress {
+    background-position: -160px -160px;
+}
+
+.trainer.dojo-master {
+    background-position: -240px -160px;
+}
+
+.trainer.dojo-trainee {
+    background-position: -320px -160px;
+}
+
+.trainer.count {
+    background-position: -400px -160px;
+}
+
+.trainer.bird-breeder-girl {
+    background-position: -480px -160px;
+}
+
+.trainer.magician {
+    background-position: -560px -160px;
+}
+
+.trainer.rich-guy {
+    background-position: -640px -160px;
+}
+
+.trainer.rich-lady {
+    background-position: -720px -160px;
+}
+
+.trainer.detective {
+    background-position: -800px -160px;
+}
+
+.trainer.old-lady {
+    background-position: -880px -160px;
+}
+
+.trainer.shopper {
+    background-position: 0 -240px;
+}
+
+.trainer.collector {
+    background-position: -80px -240px;
+}
+
+.trainer.guard {
+    background-position: -160px -240px;
+}
+
+.trainer.ranger-man {
+    background-position: -240px -240px;
+}
+
+.trainer.ranger-woman {
+    background-position: -320px -240px;
+}
+
+.trainer.scientist {
+    background-position: -400px -240px;
+}
+
+.trainer.swimmer-man {
+    background-position: -480px -240px;
+}
+
+.trainer.swimmer-woman {
+    background-position: -560px -240px;
+}
+
+.trainer.swimmer-boy {
+    background-position: -640px -240px;
+}
+
+.trainer.swimmer-girl {
+    background-position: -720px -240px;
+}
+
+.trainer.sailor {
+    background-position: -800px -240px;
+}
+
+.trainer.kimono-girl {
+    background-position: -880px -240px;
+}
+
+.trainer.treasure-seeker {
+    background-position: 0 -320px;
+}
+
+.trainer.psychic-man {
+    background-position: -80px -320px;
+}
+
+.trainer.psychic-woman {
+    background-position: -160px -320px;
+}
+
+.trainer.gambler {
+    background-position: -240px -320px;
+}
+
+.trainer.guitarrist {
+    background-position: -320px -320px;
+}
+
+.trainer.northener-man {
+    background-position: -400px -320px;
+}
+
+.trainer.northener-woman {
+    background-position: -480px -320px;
+}
+
+.trainer.team-rocket-man {
+    background-position: -560px -320px;
+}
+
+.trainer.skier {
+    background-position: -640px -320px;
+}
+
+.trainer.punk {
+    background-position: -720px -320px;
+}
+
+.trainer.clown {
+    background-position: -800px -320px;
+}
+
+.trainer.mechanic {
+    background-position: -880px -320px;
+}
+
+.trainer.student-boy {
+    background-position: 0 -400px;
+}
+
+.trainer.student-girl {
+    background-position: -80px -400px;
+}
+
+.trainer.team-rocket-woman {
+    background-position: -160px -400px;
+}
+
+.trainer.thief {
+    background-position: -240px -400px;
+}
+
+.trainer.fire-player {
+    background-position: -320px -400px;
+}
+
+.trainer.bully {
+    background-position: -400px -400px;
+}
+
+.trainer.samurai {
+    background-position: -480px -400px;
+}
+
+.trainer.bug-carcher-girl {
+    background-position: -560px -400px;
+}
+
+.trainer.cosplayer {
+    background-position: -640px -400px;
+}
+
+.trainer.bird-breeder-man {
+    background-position: -720px -400px;
+}
+
+.trainer.normal-gym-leader {
+    background-position: -800px -400px;
+}
+
+.trainer.farmer {
+    background-position: -880px -400px;
+}
+
+.trainer.ghost-gym-leader {
+    background-position: 0 -480px;
+}
+
+.trainer.ice-gym-leader {
+    background-position: -80px -480px;
+}
+
+.trainer.steel-gym-leader {
+    background-position: -160px -480px;
+}
+
+.trainer.fight-gym-leader {
+    background-position: -240px -480px;
+}
+
+.trainer.dragon-gym-leader {
+    background-position: -320px -480px;
+}
+
+.trainer.executive {
+    background-position: -400px -480px;
+}
+
+.trainer.geek {
+    background-position: -480px -480px;
+}
+
+.trainer.exorcist-man {
+    background-position: -560px -480px;
+}
+
+.trainer.happy-girl {
+    background-position: -640px -480px;
+}
+
+.trainer.waiter {
+    background-position: -720px -480px;
+}
+
+.trainer.exorcist-woman {
+    background-position: -800px -480px;
+}
+
+.trainer.camera-man {
+    background-position: -880px -480px;
+}
+
+.trainer.reporter {
+    background-position: 0 -560px;
+}
+
+.trainer.singer {
+    background-position: -80px -560px;
+}
+
+.trainer.pokemon-master-man {
+    background-position: -160px -560px;
+}
+
+.trainer.pokemon-master-woman {
+    background-position: -240px -560px;
+}
+
+.trainer.bossy-woman {
+    background-position: -320px -560px;
+}
+
+.trainer.poison-gym-leader {
+    background-position: -400px -560px;
+}
+
+.trainer.essence-lady {
+    background-position: -480px -560px;
+}
+
+.trainer.rich-guy {
+    background-position: -560px -560px;
+}
+
+.trainer.scout-girl {
+    background-position: -640px -560px;
+}
+
+.trainer.scout-boy {
+    background-position: -720px -560px;
+}
+
+.trainer.baby {
+    background-position: -800px -560px;
+}
+
+.trainer.lucas {
+    background-position: -880px -560px;
+}
+
+.trainer.dawn {
+    background-position: 0 -640px;
+}
+
+.trainer.hero {
+    background-position: -80px -640px;
+}
+
+.trainer.rock-gym-leader {
+    background-position: -160px -640px;
+}
+
+.trainer.disguise-master {
+    background-position: -240px -640px;
+}
+
+.trainer.tech-kid {
+    background-position: -320px -640px;
+}
+
+.trainer.pretty-lady {
+    background-position: -400px -640px;
+}
+
+.trainer.weird-couple {
+    background-position: -480px -640px;
+}
+
+.trainer.water-gym-leader {
+    background-position: -560px -640px;
+}
+
+.trainer.electric-gym-leader {
+    background-position: -640px -640px;
+}
+
+.trainer.grass-gym-leader {
+    background-position: -720px -640px;
+}
+
+.trainer.poison-gym-apprentice {
+    background-position: -800px -640px;
+}
+
+.trainer.psychic-gym-leader {
+    background-position: -880px -640px;
+}
+
+.trainer.fire-gym-leader {
+    background-position: 0 -720px;
+}
+
+.trainer.red {
+    background-position: -80px -720px;
+}
+
+.trainer.blue {
+    background-position: -160px -720px;
+}
+
+.trainer.sensei {
+    background-position: -240px -720px;
+}
+
+.trainer.fighter {
+    background-position: -320px -720px;
+}
+
+.trainer.crazy-scientist-man {
+    background-position: -400px -720px;
+}
+
+.trainer.groupie-woman {
+    background-position: -480px -720px;
+}
+
+.trainer.snowboarder {
+    background-position: -560px -720px;
+}
+
+.trainer.groupie-man {
+    background-position: -640px -720px;
+}
+
+.trainer.team-rocket-sergeant {
+    background-position: -720px -720px;
+}
+
+.trainer.team-rocket-boss {
+    background-position: -800px -720px;
+}
+
+.trainer.rival {
+    background-position: -880px -720px;
+}
+
+.trainer.show-off {
+    background-position: 0 -800px;
+}
+
+.trainer.students {
+    background-position: -80px -800px;
+}
+
+.trainer.dancers {
+    background-position: -160px -800px;
+}
+
+.trainer.serious-man {
+    background-position: -240px -800px;
+}
+
+.trainer.agent {
+    background-position: -320px -800px;
+}
+
+.trainer.lucas {
+    background-position: -400px -800px;
+}
+
+.trainer.dawn {
+    background-position: -480px -800px;
+}
+
+.trainer.lucas-alternative {
+    background-position: -560px -800px;
+}
+
+.trainer.dawn-alternative {
+    background-position: -640px -800px;
+}
+
+
