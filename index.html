@@ -8,12 +8,150 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=VT323">
+    <link rel="stylesheet" href="css/application.css">
     <link rel="stylesheet" href="css/pokeballs.css">
     <link rel="stylesheet" href="css/pokemons.css">
     <link rel="stylesheet" href="css/trainers.css">
 </head>
 <body>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Pokémon.js</a>
+            </div>
+            <div class="collapse navbar-collapse" id="main_navbar">
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <form action="" class="pokemon-selector">
+                    <div class="form-group">
+                        <input type="text" class="form-control pokemon-name" placeholder="Choose your Pokémon">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="player">
+                        <div class="col-xs-5 col-sm-3 col-md-2">
+                            <div class="trainer ethan"></div>
+                        </div>
+                        <div class="col-xs-7 col-sm-9 col-md-10">
+                            <div class="pokeball-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="opponent">
+                        <div class="col-xs-5 col-sm-3 col-md-2">
+                            <div class="trainer hide"></div>
+                        </div>
+                        <div class="col-xs-7 col-sm-9 col-md-10">
+                            <div class="pokeball-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="pokemon-info">
+                    <div class="pokemon-display hide">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="img-thumbnail pokemon-thumbnail">
+                                            <div class="pokemon front"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-8">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="pokemon-name"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="row">
+                                                    <div class="col-xs-5">
+                                                        <strong class="pokemon-level">Level</strong>
+                                                    </div>
+                                                    <div class="col-xs-5">
+                                                        <div class="attribute attribute-level"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="row top-buffer">
+                                    <div class="col-xs-3">
+                                        <strong>HP</strong>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <div class="attribute attribute-level"></div>
+                                    </div>
+                                    <div class="col-xs-4 col-xs-offset-1">
+                                        <strong>Sp. Atk.</strong>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <div class="attribute attribute-level"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <strong>Attack</strong>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <div class="attribute attribute-level"></div>
+                                    </div>
+                                    <div class="col-xs-4 col-xs-offset-1">
+                                        <strong>Sp. Def.</strong>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <div class="attribute attribute-level"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <strong>Defense</strong>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <div class="attribute attribute-level"></div>
+                                    </div>
+                                    <div class="col-xs-4 col-xs-offset-1">
+                                        <strong>Speed</strong>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <div class="attribute attribute-level"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="#" class="btn btn-block btn-success">Start Battle!</a>
+            </div>
+        </div>
+    </div>
     <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/application.js"></script>
 </body>
 </html>
