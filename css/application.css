@@ -37,8 +37,8 @@
     font-size: 1.5em;
 }
 
-.hide {
-    display: none;
+.panel, .form-control {
+    border: 2px solid #ccc;
 }
 
 .top-buffer {
@@ -46,8 +46,8 @@
 }
 
 .pokemon-info {
-    min-height: 285px;
-    max-height: 285px;
+    min-height: 180px;
+    max-height: 180px;
 }
 
 .pokemon-info .pokemon-name {
@@ -64,7 +64,7 @@
     width: 31px;
 }
 
-.battle-log {
+.battle-log, .selection-log {
     min-height: 72px;
     max-height: 72px;
 }

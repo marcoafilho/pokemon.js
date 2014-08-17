@@ -127,6 +127,11 @@ $(document).ready(function() {
     $('.start-battle').on('click', function(event) {
         event.preventDefault();
 
+        if (db.playerPokemons.length <= 0) {
+            $('.selection-log .panel-body').text('You must select a pokemon first!');
+            return;
+        }
+
         $('.pokeball-list .pokemon').each(function(index, element) {
             var pokemonId = $(element).data('id');
             var pokemon;
@@ -143,7 +148,7 @@ $(document).ready(function() {
 
         $('.in-pokemon-selection').removeClass('in-pokemon-selection').addClass('in-battle');
         $('.pokemon-selection-actions').remove();
-        $('.pokemon-info').remove();
+        $('.pokemon-selection').remove();
         $('.battle').removeClass('hide');
         $('.battle').css({ 'min-height': '285px', 'max-height': '285px' });
         $('.battle-actions').removeClass('hide');
