@@ -39,5 +39,7 @@ var db = {
         'Sensei', 'Fighter', 'Crazy scientist man', 'Groupie woman', 'Snowboarder', 'Groupie man', 'Team Rocket sergeant',
         'Team Rocket boss', 'Rival', 'Show off', 'Students', 'Dancers', 'Serious man', 'Agent', 'Lucas', 'Dawn', 'Lucas Alternative',
         'Dawn Alternative'
-    ]
+    ],
+    playerPokemons: [],
+    opponentPokemons: [],
 };

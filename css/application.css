@@ -14,6 +14,7 @@
 
 .navbar .navbar-brand {
     font-family: "Pokemon Solid";
+    font-size: 2em;
     color: rgb(252, 206, 0);
     text-shadow:
         -4px 4px 0 rgb(51, 86, 154),
@@ -23,17 +24,13 @@
         2px 2px 0 rgb(51, 86, 154);
 }
 
-.pokemon-info {
-    min-height: 285px;
+.navbar .navbar-brand:hover {
+    color: rgb(252, 206, 0);
 }
 
-.pokemon-info .pokemon-name {
-    font-weight: bold;
-    font-size: 1.8em;
-}
-
-.navbar-brand {
-    font-size: 2em;
+.progress {
+    height: 8px;
+    margin-bottom: 0;
 }
 
 .btn {
@@ -48,6 +45,16 @@
     padding-top: 20px;
 }
 
+.pokemon-info {
+    min-height: 285px;
+    max-height: 285px;
+}
+
+.pokemon-info .pokemon-name {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
 .pokeball-container {
     display: inline-block;
     height: 32px;
@@ -55,4 +62,28 @@
     text-align: center;
     vertical-align: top;
     width: 31px;
+}
+
+.battle-log {
+    min-height: 72px;
+    max-height: 72px;
+}
+
+.opponents-separator {
+    min-height: 69px;
+}
+
+.pokemon-battle-info {
+    border: 2px solid #ddd;
+    border-radius: 16px 4px 4px 4px;
+}
+
+.pokemon-battle-info > .panel-body {
+    padding: 5px;
+}
+
+.desaturate {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
