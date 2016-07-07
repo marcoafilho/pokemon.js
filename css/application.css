@@ -55,6 +55,11 @@
     font-size: 1.8em;
 }
 
+.poke-belt {
+  margin: 0;
+  padding: 0;
+}
+
 .pokeball-container {
     display: inline-block;
     height: 32px;
