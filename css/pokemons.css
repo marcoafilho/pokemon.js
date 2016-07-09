@@ -34,6 +34,15 @@
     background-position: -131px -34px;
 }
 
+.pokemon.small.animated.bulbasaur {
+    animation: animate-bulbasaur 0.25s steps(2) infinite;
+}
+
+@keyframes animate-bulbasaur {
+    from { background-position: -131px -2px; }
+    to { background-position: -131px -66px; }
+}
+
 .pokemon.front.ivysaur {
     background-position: -162px 0;
 }
@@ -48,6 +57,15 @@
 
 .pokemon.small.small-down.ivysaur {
     background-position: -293px -34px;
+}
+
+.pokemon.small.animated.ivysaur {
+    animation: animate-ivysaur 0.25s steps(2) infinite;
+}
+
+@keyframes animate-ivysaur {
+    from { background-position: -293px -2px; }
+    to { background-position: -293px -66px; }
 }
 
 .pokemon.front.venusaur {
@@ -66,6 +84,15 @@
     background-position: -455px -34px;
 }
 
+.pokemon.small.animated.venusaur {
+    animation: animate-venusaur 0.25s steps(2) infinite;
+}
+
+@keyframes animate-venusaur {
+    from { background-position: -455px -2px; }
+    to { background-position: -455px -66px; }
+}
+
 .pokemon.front.charmander {
     background-position: -486px 0;
 }
@@ -80,6 +107,15 @@
 
 .pokemon.small.small-down.charmander {
     background-position: -617px -34px;
+}
+
+.pokemon.small.animated.charmander {
+    animation: animate-charmander 0.25s steps(2) infinite;
+}
+
+@keyframes animate-charmander {
+    from { background-position: -617px -2px; }
+    to { background-position: -617px -66px; }
 }
 
 .pokemon.front.charmeleon {
@@ -98,6 +134,15 @@
     background-position: -779px -34px;
 }
 
+.pokemon.small.animated.charmeleon {
+    animation: animate-charmeleon 0.25s steps(2) infinite;
+}
+
+@keyframes animate-charmeleon {
+    from { background-position: -779px -2px; }
+    to { background-position: -779px -66px; }
+}
+
 .pokemon.front.charizard {
     background-position: -810px 0;
 }
@@ -112,6 +157,15 @@
 
 .pokemon.small.small-down.charizard {
     background-position: -941px -34px;
+}
+
+.pokemon.small.animated.charizard {
+    animation: animate-charizard 0.25s steps(2) infinite;
+}
+
+@keyframes animate-charizard {
+    from { background-position: -941px -2px; }
+    to { background-position: -941px -66px; }
 }
 
 .pokemon.front.squirtle {
@@ -130,6 +184,15 @@
     background-position: -1103px -34px;
 }
 
+.pokemon.small.animated.squirtle {
+    animation: animate-squirtle 0.25s steps(2) infinite;
+}
+
+@keyframes animate-squirtle {
+    from { background-position: -1103px -2px; }
+    to { background-position: -1103px -66px; }
+}
+
 .pokemon.front.wartortle {
     background-position: -1134px 0;
 }
@@ -144,6 +207,15 @@
 
 .pokemon.small.small-down.wartortle {
     background-position: -1265px -34px;
+}
+
+.pokemon.small.animated.wartortle {
+    animation: animate-wartortle 0.25s steps(2) infinite;
+}
+
+@keyframes animate-wartortle {
+    from { background-position: -1265px -2px; }
+    to { background-position: -1265px -66px; }
 }
 
 .pokemon.front.blastoise {
@@ -162,6 +234,15 @@
     background-position: -1427px -34px;
 }
 
+.pokemon.small.animated.blastoise {
+    animation: animate-blastoise 0.25s steps(2) infinite;
+}
+
+@keyframes animate-blastoise {
+    from { background-position: -1427px -2px; }
+    to { background-position: -1427px -66px; }
+}
+
 .pokemon.front.caterpie {
     background-position: -1458px 0;
 }
@@ -176,6 +257,15 @@
 
 .pokemon.small.small-down.caterpie {
     background-position: -1589px -34px;
+}
+
+.pokemon.small.animated.caterpie {
+    animation: animate-caterpie 0.25s steps(2) infinite;
+}
+
+@keyframes animate-caterpie {
+    from { background-position: -1589px -2px; }
+    to { background-position: -1589px -66px; }
 }
 
 .pokemon.front.metapod {
@@ -194,6 +284,15 @@
     background-position: -131px -100px;
 }
 
+.pokemon.small.animated.metapod {
+    animation: animate-metapod 0.25s steps(2) infinite;
+}
+
+@keyframes animate-metapod {
+    from { background-position: -131px -68px; }
+    to { background-position: -131px -132px; }
+}
+
 .pokemon.front.butterfree {
     background-position: -162px -66px;
 }
@@ -208,6 +307,15 @@
 
 .pokemon.small.small-down.butterfree {
     background-position: -293px -100px;
+}
+
+.pokemon.small.animated.butterfree {
+    animation: animate-butterfree 0.25s steps(2) infinite;
+}
+
+@keyframes animate-butterfree {
+    from { background-position: -293px -68px; }
+    to { background-position: -293px -132px; }
 }
 
 .pokemon.front.weedle {
@@ -226,6 +334,15 @@
     background-position: -455px -100px;
 }
 
+.pokemon.small.animated.weedle {
+    animation: animate-weedle 0.25s steps(2) infinite;
+}
+
+@keyframes animate-weedle {
+    from { background-position: -455px -68px; }
+    to { background-position: -455px -132px; }
+}
+
 .pokemon.front.kakuna {
     background-position: -486px -66px;
 }
@@ -240,6 +357,15 @@
 
 .pokemon.small.small-down.kakuna {
     background-position: -617px -100px;
+}
+
+.pokemon.small.animated.kakuna {
+    animation: animate-kakuna 0.25s steps(2) infinite;
+}
+
+@keyframes animate-kakuna {
+    from { background-position: -617px -68px; }
+    to { background-position: -617px -132px; }
 }
 
 .pokemon.front.beedrill {
@@ -258,6 +384,15 @@
     background-position: -779px -100px;
 }
 
+.pokemon.small.animated.beedrill {
+    animation: animate-beedrill 0.25s steps(2) infinite;
+}
+
+@keyframes animate-beedrill {
+    from { background-position: -779px -68px; }
+    to { background-position: -779px -132px; }
+}
+
 .pokemon.front.pidgey {
     background-position: -810px -66px;
 }
@@ -272,6 +407,15 @@
 
 .pokemon.small.small-down.pidgey {
     background-position: -941px -100px;
+}
+
+.pokemon.small.animated.pidgey {
+    animation: animate-pidgey 0.25s steps(2) infinite;
+}
+
+@keyframes animate-pidgey {
+    from { background-position: -941px -68px; }
+    to { background-position: -941px -132px; }
 }
 
 .pokemon.front.pidgeotto {
@@ -290,6 +434,15 @@
     background-position: -1103px -100px;
 }
 
+.pokemon.small.animated.pidgeotto {
+    animation: animate-pidgeotto 0.25s steps(2) infinite;
+}
+
+@keyframes animate-pidgeotto {
+    from { background-position: -1103px -68px; }
+    to { background-position: -1103px -132px; }
+}
+
 .pokemon.front.pidgeot {
     background-position: -1134px -66px;
 }
@@ -304,6 +457,15 @@
 
 .pokemon.small.small-down.pidgeot {
     background-position: -1265px -100px;
+}
+
+.pokemon.small.animated.pidgeot {
+    animation: animate-pidgeot 0.25s steps(2) infinite;
+}
+
+@keyframes animate-pidgeot {
+    from { background-position: -1265px -68px; }
+    to { background-position: -1265px -132px; }
 }
 
 .pokemon.front.ratata {
@@ -322,6 +484,15 @@
     background-position: -1427px -100px;
 }
 
+.pokemon.small.animated.ratata {
+    animation: animate-ratata 0.25s steps(2) infinite;
+}
+
+@keyframes animate-ratata {
+    from { background-position: -1427px -68px; }
+    to { background-position: -1427px -132px; }
+}
+
 .pokemon.front.raticate {
     background-position: -1458px -66px;
 }
@@ -336,6 +507,15 @@
 
 .pokemon.small.small-down.raticate {
     background-position: -1589px -100px;
+}
+
+.pokemon.small.animated.raticate {
+    animation: animate-raticate 0.25s steps(2) infinite;
+}
+
+@keyframes animate-raticate {
+    from { background-position: -1589px -68px; }
+    to { background-position: -1589px -132px; }
 }
 
 .pokemon.front.spearow {
@@ -354,6 +534,15 @@
     background-position: -131px -166px;
 }
 
+.pokemon.small.animated.spearow {
+    animation: animate-spearow 0.25s steps(2) infinite;
+}
+
+@keyframes animate-spearow {
+    from { background-position: -131px -134px; }
+    to { background-position: -131px -198px; }
+}
+
 .pokemon.front.fearow {
     background-position: -162px -132px;
 }
@@ -368,6 +557,15 @@
 
 .pokemon.small.small-down.fearow {
     background-position: -293px -166px;
+}
+
+.pokemon.small.animated.fearow {
+    animation: animate-fearow 0.25s steps(2) infinite;
+}
+
+@keyframes animate-fearow {
+    from { background-position: -293px -134px; }
+    to { background-position: -293px -198px; }
 }
 
 .pokemon.front.ekans {
@@ -386,6 +584,15 @@
     background-position: -455px -166px;
 }
 
+.pokemon.small.animated.ekans {
+    animation: animate-ekans 0.25s steps(2) infinite;
+}
+
+@keyframes animate-ekans {
+    from { background-position: -455px -134px; }
+    to { background-position: -455px -198px; }
+}
+
 .pokemon.front.arbok {
     background-position: -486px -132px;
 }
@@ -400,6 +607,15 @@
 
 .pokemon.small.small-down.arbok {
     background-position: -617px -166px;
+}
+
+.pokemon.small.animated.arbok {
+    animation: animate-arbok 0.25s steps(2) infinite;
+}
+
+@keyframes animate-arbok {
+    from { background-position: -617px -134px; }
+    to { background-position: -617px -198px; }
 }
 
 .pokemon.front.pikachu {
@@ -418,6 +634,15 @@
     background-position: -779px -166px;
 }
 
+.pokemon.small.animated.pikachu {
+    animation: animate-pikachu 0.25s steps(2) infinite;
+}
+
+@keyframes animate-pikachu {
+    from { background-position: -779px -134px; }
+    to { background-position: -779px -198px; }
+}
+
 .pokemon.front.raichu {
     background-position: -810px -132px;
 }
@@ -432,6 +657,15 @@
 
 .pokemon.small.small-down.raichu {
     background-position: -941px -166px;
+}
+
+.pokemon.small.animated.raichu {
+    animation: animate-raichu 0.25s steps(2) infinite;
+}
+
+@keyframes animate-raichu {
+    from { background-position: -941px -134px; }
+    to { background-position: -941px -198px; }
 }
 
 .pokemon.front.sandshrew {
@@ -450,6 +684,15 @@
     background-position: -1103px -166px;
 }
 
+.pokemon.small.animated.sandshrew {
+    animation: animate-sandshrew 0.25s steps(2) infinite;
+}
+
+@keyframes animate-sandshrew {
+    from { background-position: -1103px -134px; }
+    to { background-position: -1103px -198px; }
+}
+
 .pokemon.front.sandslash {
     background-position: -1134px -132px;
 }
@@ -464,6 +707,15 @@
 
 .pokemon.small.small-down.sandslash {
     background-position: -1265px -166px;
+}
+
+.pokemon.small.animated.sandslash {
+    animation: animate-sandslash 0.25s steps(2) infinite;
+}
+
+@keyframes animate-sandslash {
+    from { background-position: -1265px -134px; }
+    to { background-position: -1265px -198px; }
 }
 
 .pokemon.front.nidoran-female {
@@ -482,6 +734,15 @@
     background-position: -1427px -166px;
 }
 
+.pokemon.small.animated.nidoran-female {
+    animation: animate-nidoran-female 0.25s steps(2) infinite;
+}
+
+@keyframes animate-nidoran-female {
+    from { background-position: -1427px -134px; }
+    to { background-position: -1427px -198px; }
+}
+
 .pokemon.front.nidorina {
     background-position: -1458px -132px;
 }
@@ -496,6 +757,15 @@
 
 .pokemon.small.small-down.nidorina {
     background-position: -1589px -166px;
+}
+
+.pokemon.small.animated.nidorina {
+    animation: animate-nidorina 0.25s steps(2) infinite;
+}
+
+@keyframes animate-nidorina {
+    from { background-position: -1589px -134px; }
+    to { background-position: -1589px -198px; }
 }
 
 .pokemon.front.nidoqueen {
@@ -514,6 +784,15 @@
     background-position: -131px -232px;
 }
 
+.pokemon.small.animated.nidoqueen {
+    animation: animate-nidoqueen 0.25s steps(2) infinite;
+}
+
+@keyframes animate-nidoqueen {
+    from { background-position: -131px -200px; }
+    to { background-position: -131px -264px; }
+}
+
 .pokemon.front.nidoran-male {
     background-position: -162px -198px;
 }
@@ -528,6 +807,15 @@
 
 .pokemon.small.small-down.nidoran-male {
     background-position: -293px -232px;
+}
+
+.pokemon.small.animated.nidoran-male {
+    animation: animate-nidoran-male 0.25s steps(2) infinite;
+}
+
+@keyframes animate-nidoran-male {
+    from { background-position: -293px -200px; }
+    to { background-position: -293px -264px; }
 }
 
 .pokemon.front.nidorino {
@@ -546,6 +834,15 @@
     background-position: -455px -232px;
 }
 
+.pokemon.small.animated.nidorino {
+    animation: animate-nidorino 0.25s steps(2) infinite;
+}
+
+@keyframes animate-nidorino {
+    from { background-position: -455px -200px; }
+    to { background-position: -455px -264px; }
+}
+
 .pokemon.front.nidoking {
     background-position: -486px -198px;
 }
@@ -560,6 +857,15 @@
 
 .pokemon.small.small-down.nidoking {
     background-position: -617px -232px;
+}
+
+.pokemon.small.animated.nidoking {
+    animation: animate-nidoking 0.25s steps(2) infinite;
+}
+
+@keyframes animate-nidoking {
+    from { background-position: -617px -200px; }
+    to { background-position: -617px -264px; }
 }
 
 .pokemon.front.clefairy {
@@ -578,6 +884,15 @@
     background-position: -779px -232px;
 }
 
+.pokemon.small.animated.clefairy {
+    animation: animate-clefairy 0.25s steps(2) infinite;
+}
+
+@keyframes animate-clefairy {
+    from { background-position: -779px -200px; }
+    to { background-position: -779px -264px; }
+}
+
 .pokemon.front.clefable {
     background-position: -810px -198px;
 }
@@ -592,6 +907,15 @@
 
 .pokemon.small.small-down.clefable {
     background-position: -941px -232px;
+}
+
+.pokemon.small.animated.clefable {
+    animation: animate-clefable 0.25s steps(2) infinite;
+}
+
+@keyframes animate-clefable {
+    from { background-position: -941px -200px; }
+    to { background-position: -941px -264px; }
 }
 
 .pokemon.front.vulpix {
@@ -610,6 +934,15 @@
     background-position: -1103px -232px;
 }
 
+.pokemon.small.animated.vulpix {
+    animation: animate-vulpix 0.25s steps(2) infinite;
+}
+
+@keyframes animate-vulpix {
+    from { background-position: -1103px -200px; }
+    to { background-position: -1103px -264px; }
+}
+
 .pokemon.front.ninetales {
     background-position: -1134px -198px;
 }
@@ -624,6 +957,15 @@
 
 .pokemon.small.small-down.ninetales {
     background-position: -1265px -232px;
+}
+
+.pokemon.small.animated.ninetales {
+    animation: animate-ninetales 0.25s steps(2) infinite;
+}
+
+@keyframes animate-ninetales {
+    from { background-position: -1265px -200px; }
+    to { background-position: -1265px -264px; }
 }
 
 .pokemon.front.jigglypuff {
@@ -642,6 +984,15 @@
     background-position: -1427px -232px;
 }
 
+.pokemon.small.animated.jigglypuff {
+    animation: animate-jigglypuff 0.25s steps(2) infinite;
+}
+
+@keyframes animate-jigglypuff {
+    from { background-position: -1427px -200px; }
+    to { background-position: -1427px -264px; }
+}
+
 .pokemon.front.wigglytuff {
     background-position: -1458px -198px;
 }
@@ -656,6 +1007,15 @@
 
 .pokemon.small.small-down.wigglytuff {
     background-position: -1589px -232px;
+}
+
+.pokemon.small.animated.wigglytuff {
+    animation: animate-wigglytuff 0.25s steps(2) infinite;
+}
+
+@keyframes animate-wigglytuff {
+    from { background-position: -1589px -200px; }
+    to { background-position: -1589px -264px; }
 }
 
 .pokemon.front.zubat {
@@ -674,6 +1034,15 @@
     background-position: -131px -298px;
 }
 
+.pokemon.small.animated.zubat {
+    animation: animate-zubat 0.25s steps(2) infinite;
+}
+
+@keyframes animate-zubat {
+    from { background-position: -131px -266px; }
+    to { background-position: -131px -330px; }
+}
+
 .pokemon.front.golbat {
     background-position: -162px -264px;
 }
@@ -688,6 +1057,15 @@
 
 .pokemon.small.small-down.golbat {
     background-position: -293px -298px;
+}
+
+.pokemon.small.animated.golbat {
+    animation: animate-golbat 0.25s steps(2) infinite;
+}
+
+@keyframes animate-golbat {
+    from { background-position: -293px -266px; }
+    to { background-position: -293px -330px; }
 }
 
 .pokemon.front.oddish {
@@ -706,6 +1084,15 @@
     background-position: -455px -298px;
 }
 
+.pokemon.small.animated.oddish {
+    animation: animate-oddish 0.25s steps(2) infinite;
+}
+
+@keyframes animate-oddish {
+    from { background-position: -455px -266px; }
+    to { background-position: -455px -330px; }
+}
+
 .pokemon.front.gloom {
     background-position: -486px -264px;
 }
@@ -720,6 +1107,15 @@
 
 .pokemon.small.small-down.gloom {
     background-position: -617px -298px;
+}
+
+.pokemon.small.animated.gloom {
+    animation: animate-gloom 0.25s steps(2) infinite;
+}
+
+@keyframes animate-gloom {
+    from { background-position: -617px -266px; }
+    to { background-position: -617px -330px; }
 }
 
 .pokemon.front.vileplume {
@@ -738,6 +1134,15 @@
     background-position: -779px -298px;
 }
 
+.pokemon.small.animated.vileplume {
+    animation: animate-vileplume 0.25s steps(2) infinite;
+}
+
+@keyframes animate-vileplume {
+    from { background-position: -779px -266px; }
+    to { background-position: -779px -330px; }
+}
+
 .pokemon.front.paras {
     background-position: -810px -264px;
 }
@@ -752,6 +1157,15 @@
 
 .pokemon.small.small-down.paras {
     background-position: -941px -298px;
+}
+
+.pokemon.small.animated.paras {
+    animation: animate-paras 0.25s steps(2) infinite;
+}
+
+@keyframes animate-paras {
+    from { background-position: -941px -266px; }
+    to { background-position: -941px -330px; }
 }
 
 .pokemon.front.parasect {
@@ -770,6 +1184,15 @@
     background-position: -1103px -298px;
 }
 
+.pokemon.small.animated.parasect {
+    animation: animate-parasect 0.25s steps(2) infinite;
+}
+
+@keyframes animate-parasect {
+    from { background-position: -1103px -266px; }
+    to { background-position: -1103px -330px; }
+}
+
 .pokemon.front.venonat {
     background-position: -1134px -264px;
 }
@@ -784,6 +1207,15 @@
 
 .pokemon.small.small-down.venonat {
     background-position: -1265px -298px;
+}
+
+.pokemon.small.animated.venonat {
+    animation: animate-venonat 0.25s steps(2) infinite;
+}
+
+@keyframes animate-venonat {
+    from { background-position: -1265px -266px; }
+    to { background-position: -1265px -330px; }
 }
 
 .pokemon.front.venomoth {
@@ -802,6 +1234,15 @@
     background-position: -1427px -298px;
 }
 
+.pokemon.small.animated.venomoth {
+    animation: animate-venomoth 0.25s steps(2) infinite;
+}
+
+@keyframes animate-venomoth {
+    from { background-position: -1427px -266px; }
+    to { background-position: -1427px -330px; }
+}
+
 .pokemon.front.diglett {
     background-position: -1458px -264px;
 }
@@ -816,6 +1257,15 @@
 
 .pokemon.small.small-down.diglett {
     background-position: -1589px -298px;
+}
+
+.pokemon.small.animated.diglett {
+    animation: animate-diglett 0.25s steps(2) infinite;
+}
+
+@keyframes animate-diglett {
+    from { background-position: -1589px -266px; }
+    to { background-position: -1589px -330px; }
 }
 
 .pokemon.front.dugtrio {
@@ -834,6 +1284,15 @@
     background-position: -131px -364px;
 }
 
+.pokemon.small.animated.dugtrio {
+    animation: animate-dugtrio 0.25s steps(2) infinite;
+}
+
+@keyframes animate-dugtrio {
+    from { background-position: -131px -332px; }
+    to { background-position: -131px -396px; }
+}
+
 .pokemon.front.meowth {
     background-position: -162px -330px;
 }
@@ -848,6 +1307,15 @@
 
 .pokemon.small.small-down.meowth {
     background-position: -293px -364px;
+}
+
+.pokemon.small.animated.meowth {
+    animation: animate-meowth 0.25s steps(2) infinite;
+}
+
+@keyframes animate-meowth {
+    from { background-position: -293px -332px; }
+    to { background-position: -293px -396px; }
 }
 
 .pokemon.front.persian {
@@ -866,6 +1334,15 @@
     background-position: -455px -364px;
 }
 
+.pokemon.small.animated.persian {
+    animation: animate-persian 0.25s steps(2) infinite;
+}
+
+@keyframes animate-persian {
+    from { background-position: -455px -332px; }
+    to { background-position: -455px -396px; }
+}
+
 .pokemon.front.psyduck {
     background-position: -486px -330px;
 }
@@ -880,6 +1357,15 @@
 
 .pokemon.small.small-down.psyduck {
     background-position: -617px -364px;
+}
+
+.pokemon.small.animated.psyduck {
+    animation: animate-psyduck 0.25s steps(2) infinite;
+}
+
+@keyframes animate-psyduck {
+    from { background-position: -617px -332px; }
+    to { background-position: -617px -396px; }
 }
 
 .pokemon.front.golduck {
@@ -898,6 +1384,15 @@
     background-position: -779px -364px;
 }
 
+.pokemon.small.animated.golduck {
+    animation: animate-golduck 0.25s steps(2) infinite;
+}
+
+@keyframes animate-golduck {
+    from { background-position: -779px -332px; }
+    to { background-position: -779px -396px; }
+}
+
 .pokemon.front.mankey {
     background-position: -810px -330px;
 }
@@ -912,6 +1407,15 @@
 
 .pokemon.small.small-down.mankey {
     background-position: -941px -364px;
+}
+
+.pokemon.small.animated.mankey {
+    animation: animate-mankey 0.25s steps(2) infinite;
+}
+
+@keyframes animate-mankey {
+    from { background-position: -941px -332px; }
+    to { background-position: -941px -396px; }
 }
 
 .pokemon.front.primeape {
@@ -930,6 +1434,15 @@
     background-position: -1103px -364px;
 }
 
+.pokemon.small.animated.primeape {
+    animation: animate-primeape 0.25s steps(2) infinite;
+}
+
+@keyframes animate-primeape {
+    from { background-position: -1103px -332px; }
+    to { background-position: -1103px -396px; }
+}
+
 .pokemon.front.growlithe {
     background-position: -1134px -330px;
 }
@@ -944,6 +1457,15 @@
 
 .pokemon.small.small-down.growlithe {
     background-position: -1265px -364px;
+}
+
+.pokemon.small.animated.growlithe {
+    animation: animate-growlithe 0.25s steps(2) infinite;
+}
+
+@keyframes animate-growlithe {
+    from { background-position: -1265px -332px; }
+    to { background-position: -1265px -396px; }
 }
 
 .pokemon.front.arcanine {
@@ -962,6 +1484,15 @@
     background-position: -1427px -364px;
 }
 
+.pokemon.small.animated.arcanine {
+    animation: animate-arcanine 0.25s steps(2) infinite;
+}
+
+@keyframes animate-arcanine {
+    from { background-position: -1427px -332px; }
+    to { background-position: -1427px -396px; }
+}
+
 .pokemon.front.poliwag {
     background-position: -1458px -330px;
 }
@@ -976,6 +1507,15 @@
 
 .pokemon.small.small-down.poliwag {
     background-position: -1589px -364px;
+}
+
+.pokemon.small.animated.poliwag {
+    animation: animate-poliwag 0.25s steps(2) infinite;
+}
+
+@keyframes animate-poliwag {
+    from { background-position: -1589px -332px; }
+    to { background-position: -1589px -396px; }
 }
 
 .pokemon.front.poliwhirl {
@@ -994,6 +1534,15 @@
     background-position: -131px -430px;
 }
 
+.pokemon.small.animated.poliwhirl {
+    animation: animate-poliwhirl 0.25s steps(2) infinite;
+}
+
+@keyframes animate-poliwhirl {
+    from { background-position: -131px -398px; }
+    to { background-position: -131px -462px; }
+}
+
 .pokemon.front.poliwrath {
     background-position: -162px -396px;
 }
@@ -1008,6 +1557,15 @@
 
 .pokemon.small.small-down.poliwrath {
     background-position: -293px -430px;
+}
+
+.pokemon.small.animated.poliwrath {
+    animation: animate-poliwrath 0.25s steps(2) infinite;
+}
+
+@keyframes animate-poliwrath {
+    from { background-position: -293px -398px; }
+    to { background-position: -293px -462px; }
 }
 
 .pokemon.front.abra {
@@ -1026,6 +1584,15 @@
     background-position: -455px -430px;
 }
 
+.pokemon.small.animated.abra {
+    animation: animate-abra 0.25s steps(2) infinite;
+}
+
+@keyframes animate-abra {
+    from { background-position: -455px -398px; }
+    to { background-position: -455px -462px; }
+}
+
 .pokemon.front.kadabra {
     background-position: -486px -396px;
 }
@@ -1040,6 +1607,15 @@
 
 .pokemon.small.small-down.kadabra {
     background-position: -617px -430px;
+}
+
+.pokemon.small.animated.kadabra {
+    animation: animate-kadabra 0.25s steps(2) infinite;
+}
+
+@keyframes animate-kadabra {
+    from { background-position: -617px -398px; }
+    to { background-position: -617px -462px; }
 }
 
 .pokemon.front.alakazam {
@@ -1058,6 +1634,15 @@
     background-position: -779px -430px;
 }
 
+.pokemon.small.animated.alakazam {
+    animation: animate-alakazam 0.25s steps(2) infinite;
+}
+
+@keyframes animate-alakazam {
+    from { background-position: -779px -398px; }
+    to { background-position: -779px -462px; }
+}
+
 .pokemon.front.macho {
     background-position: -810px -396px;
 }
@@ -1072,6 +1657,15 @@
 
 .pokemon.small.small-down.macho {
     background-position: -941px -430px;
+}
+
+.pokemon.small.animated.macho {
+    animation: animate-macho 0.25s steps(2) infinite;
+}
+
+@keyframes animate-macho {
+    from { background-position: -941px -398px; }
+    to { background-position: -941px -462px; }
 }
 
 .pokemon.front.machoke {
@@ -1090,6 +1684,15 @@
     background-position: -1103px -430px;
 }
 
+.pokemon.small.animated.machoke {
+    animation: animate-machoke 0.25s steps(2) infinite;
+}
+
+@keyframes animate-machoke {
+    from { background-position: -1103px -398px; }
+    to { background-position: -1103px -462px; }
+}
+
 .pokemon.front.machamp {
     background-position: -1134px -396px;
 }
@@ -1104,6 +1707,15 @@
 
 .pokemon.small.small-down.machamp {
     background-position: -1265px -430px;
+}
+
+.pokemon.small.animated.machamp {
+    animation: animate-machamp 0.25s steps(2) infinite;
+}
+
+@keyframes animate-machamp {
+    from { background-position: -1265px -398px; }
+    to { background-position: -1265px -462px; }
 }
 
 .pokemon.front.bellsprout {
@@ -1122,6 +1734,15 @@
     background-position: -1427px -430px;
 }
 
+.pokemon.small.animated.bellsprout {
+    animation: animate-bellsprout 0.25s steps(2) infinite;
+}
+
+@keyframes animate-bellsprout {
+    from { background-position: -1427px -398px; }
+    to { background-position: -1427px -462px; }
+}
+
 .pokemon.front.weepinbell {
     background-position: -1458px -396px;
 }
@@ -1136,6 +1757,15 @@
 
 .pokemon.small.small-down.weepinbell {
     background-position: -1589px -430px;
+}
+
+.pokemon.small.animated.weepinbell {
+    animation: animate-weepinbell 0.25s steps(2) infinite;
+}
+
+@keyframes animate-weepinbell {
+    from { background-position: -1589px -398px; }
+    to { background-position: -1589px -462px; }
 }
 
 .pokemon.front.victreebel {
@@ -1154,6 +1784,15 @@
     background-position: -131px -496px;
 }
 
+.pokemon.small.animated.victreebel {
+    animation: animate-victreebel 0.25s steps(2) infinite;
+}
+
+@keyframes animate-victreebel {
+    from { background-position: -131px -464px; }
+    to { background-position: -131px -528px; }
+}
+
 .pokemon.front.tentacool {
     background-position: -162px -462px;
 }
@@ -1168,6 +1807,15 @@
 
 .pokemon.small.small-down.tentacool {
     background-position: -293px -496px;
+}
+
+.pokemon.small.animated.tentacool {
+    animation: animate-tentacool 0.25s steps(2) infinite;
+}
+
+@keyframes animate-tentacool {
+    from { background-position: -293px -464px; }
+    to { background-position: -293px -528px; }
 }
 
 .pokemon.front.tentacruel {
@@ -1186,6 +1834,15 @@
     background-position: -455px -496px;
 }
 
+.pokemon.small.animated.tentacruel {
+    animation: animate-tentacruel 0.25s steps(2) infinite;
+}
+
+@keyframes animate-tentacruel {
+    from { background-position: -455px -464px; }
+    to { background-position: -455px -528px; }
+}
+
 .pokemon.front.geodude {
     background-position: -486px -462px;
 }
@@ -1200,6 +1857,15 @@
 
 .pokemon.small.small-down.geodude {
     background-position: -617px -496px;
+}
+
+.pokemon.small.animated.geodude {
+    animation: animate-geodude 0.25s steps(2) infinite;
+}
+
+@keyframes animate-geodude {
+    from { background-position: -617px -464px; }
+    to { background-position: -617px -528px; }
 }
 
 .pokemon.front.graveler {
@@ -1218,6 +1884,15 @@
     background-position: -779px -496px;
 }
 
+.pokemon.small.animated.graveler {
+    animation: animate-graveler 0.25s steps(2) infinite;
+}
+
+@keyframes animate-graveler {
+    from { background-position: -779px -464px; }
+    to { background-position: -779px -528px; }
+}
+
 .pokemon.front.golem {
     background-position: -810px -462px;
 }
@@ -1232,6 +1907,15 @@
 
 .pokemon.small.small-down.golem {
     background-position: -941px -496px;
+}
+
+.pokemon.small.animated.golem {
+    animation: animate-golem 0.25s steps(2) infinite;
+}
+
+@keyframes animate-golem {
+    from { background-position: -941px -464px; }
+    to { background-position: -941px -528px; }
 }
 
 .pokemon.front.ponyta {
@@ -1250,6 +1934,15 @@
     background-position: -1103px -496px;
 }
 
+.pokemon.small.animated.ponyta {
+    animation: animate-ponyta 0.25s steps(2) infinite;
+}
+
+@keyframes animate-ponyta {
+    from { background-position: -1103px -464px; }
+    to { background-position: -1103px -528px; }
+}
+
 .pokemon.front.rapidash {
     background-position: -1134px -462px;
 }
@@ -1264,6 +1957,15 @@
 
 .pokemon.small.small-down.rapidash {
     background-position: -1265px -496px;
+}
+
+.pokemon.small.animated.rapidash {
+    animation: animate-rapidash 0.25s steps(2) infinite;
+}
+
+@keyframes animate-rapidash {
+    from { background-position: -1265px -464px; }
+    to { background-position: -1265px -528px; }
 }
 
 .pokemon.front.slowpoke {
@@ -1282,6 +1984,15 @@
     background-position: -1427px -496px;
 }
 
+.pokemon.small.animated.slowpoke {
+    animation: animate-slowpoke 0.25s steps(2) infinite;
+}
+
+@keyframes animate-slowpoke {
+    from { background-position: -1427px -464px; }
+    to { background-position: -1427px -528px; }
+}
+
 .pokemon.front.slowbro {
     background-position: -1458px -462px;
 }
@@ -1296,6 +2007,15 @@
 
 .pokemon.small.small-down.slowbro {
     background-position: -1589px -496px;
+}
+
+.pokemon.small.animated.slowbro {
+    animation: animate-slowbro 0.25s steps(2) infinite;
+}
+
+@keyframes animate-slowbro {
+    from { background-position: -1589px -464px; }
+    to { background-position: -1589px -528px; }
 }
 
 .pokemon.front.magnemite {
@@ -1314,6 +2034,15 @@
     background-position: -131px -562px;
 }
 
+.pokemon.small.animated.magnemite {
+    animation: animate-magnemite 0.25s steps(2) infinite;
+}
+
+@keyframes animate-magnemite {
+    from { background-position: -131px -530px; }
+    to { background-position: -131px -594px; }
+}
+
 .pokemon.front.magneton {
     background-position: -162px -528px;
 }
@@ -1328,6 +2057,15 @@
 
 .pokemon.small.small-down.magneton {
     background-position: -293px -562px;
+}
+
+.pokemon.small.animated.magneton {
+    animation: animate-magneton 0.25s steps(2) infinite;
+}
+
+@keyframes animate-magneton {
+    from { background-position: -293px -530px; }
+    to { background-position: -293px -594px; }
 }
 
 .pokemon.front.farfetch-d {
@@ -1346,6 +2084,15 @@
     background-position: -455px -562px;
 }
 
+.pokemon.small.animated.farfetch-d {
+    animation: animate-farfetch-d 0.25s steps(2) infinite;
+}
+
+@keyframes animate-farfetch-d {
+    from { background-position: -455px -530px; }
+    to { background-position: -455px -594px; }
+}
+
 .pokemon.front.doduo {
     background-position: -486px -528px;
 }
@@ -1360,6 +2107,15 @@
 
 .pokemon.small.small-down.doduo {
     background-position: -617px -562px;
+}
+
+.pokemon.small.animated.doduo {
+    animation: animate-doduo 0.25s steps(2) infinite;
+}
+
+@keyframes animate-doduo {
+    from { background-position: -617px -530px; }
+    to { background-position: -617px -594px; }
 }
 
 .pokemon.front.dodrio {
@@ -1378,6 +2134,15 @@
     background-position: -779px -562px;
 }
 
+.pokemon.small.animated.dodrio {
+    animation: animate-dodrio 0.25s steps(2) infinite;
+}
+
+@keyframes animate-dodrio {
+    from { background-position: -779px -530px; }
+    to { background-position: -779px -594px; }
+}
+
 .pokemon.front.seel {
     background-position: -810px -528px;
 }
@@ -1392,6 +2157,15 @@
 
 .pokemon.small.small-down.seel {
     background-position: -941px -562px;
+}
+
+.pokemon.small.animated.seel {
+    animation: animate-seel 0.25s steps(2) infinite;
+}
+
+@keyframes animate-seel {
+    from { background-position: -941px -530px; }
+    to { background-position: -941px -594px; }
 }
 
 .pokemon.front.dewgong {
@@ -1410,6 +2184,15 @@
     background-position: -1103px -562px;
 }
 
+.pokemon.small.animated.dewgong {
+    animation: animate-dewgong 0.25s steps(2) infinite;
+}
+
+@keyframes animate-dewgong {
+    from { background-position: -1103px -530px; }
+    to { background-position: -1103px -594px; }
+}
+
 .pokemon.front.grimer {
     background-position: -1134px -528px;
 }
@@ -1424,6 +2207,15 @@
 
 .pokemon.small.small-down.grimer {
     background-position: -1265px -562px;
+}
+
+.pokemon.small.animated.grimer {
+    animation: animate-grimer 0.25s steps(2) infinite;
+}
+
+@keyframes animate-grimer {
+    from { background-position: -1265px -530px; }
+    to { background-position: -1265px -594px; }
 }
 
 .pokemon.front.muk {
@@ -1442,6 +2234,15 @@
     background-position: -1427px -562px;
 }
 
+.pokemon.small.animated.muk {
+    animation: animate-muk 0.25s steps(2) infinite;
+}
+
+@keyframes animate-muk {
+    from { background-position: -1427px -530px; }
+    to { background-position: -1427px -594px; }
+}
+
 .pokemon.front.shellder {
     background-position: -1458px -528px;
 }
@@ -1456,6 +2257,15 @@
 
 .pokemon.small.small-down.shellder {
     background-position: -1589px -562px;
+}
+
+.pokemon.small.animated.shellder {
+    animation: animate-shellder 0.25s steps(2) infinite;
+}
+
+@keyframes animate-shellder {
+    from { background-position: -1589px -530px; }
+    to { background-position: -1589px -594px; }
 }
 
 .pokemon.front.cloyster {
@@ -1474,6 +2284,15 @@
     background-position: -131px -628px;
 }
 
+.pokemon.small.animated.cloyster {
+    animation: animate-cloyster 0.25s steps(2) infinite;
+}
+
+@keyframes animate-cloyster {
+    from { background-position: -131px -596px; }
+    to { background-position: -131px -660px; }
+}
+
 .pokemon.front.gastly {
     background-position: -162px -594px;
 }
@@ -1488,6 +2307,15 @@
 
 .pokemon.small.small-down.gastly {
     background-position: -293px -628px;
+}
+
+.pokemon.small.animated.gastly {
+    animation: animate-gastly 0.25s steps(2) infinite;
+}
+
+@keyframes animate-gastly {
+    from { background-position: -293px -596px; }
+    to { background-position: -293px -660px; }
 }
 
 .pokemon.front.haunter {
@@ -1506,6 +2334,15 @@
     background-position: -455px -628px;
 }
 
+.pokemon.small.animated.haunter {
+    animation: animate-haunter 0.25s steps(2) infinite;
+}
+
+@keyframes animate-haunter {
+    from { background-position: -455px -596px; }
+    to { background-position: -455px -660px; }
+}
+
 .pokemon.front.gengar {
     background-position: -486px -594px;
 }
@@ -1520,6 +2357,15 @@
 
 .pokemon.small.small-down.gengar {
     background-position: -617px -628px;
+}
+
+.pokemon.small.animated.gengar {
+    animation: animate-gengar 0.25s steps(2) infinite;
+}
+
+@keyframes animate-gengar {
+    from { background-position: -617px -596px; }
+    to { background-position: -617px -660px; }
 }
 
 .pokemon.front.onix {
@@ -1538,6 +2384,15 @@
     background-position: -779px -628px;
 }
 
+.pokemon.small.animated.onix {
+    animation: animate-onix 0.25s steps(2) infinite;
+}
+
+@keyframes animate-onix {
+    from { background-position: -779px -596px; }
+    to { background-position: -779px -660px; }
+}
+
 .pokemon.front.drowzee {
     background-position: -810px -594px;
 }
@@ -1552,6 +2407,15 @@
 
 .pokemon.small.small-down.drowzee {
     background-position: -941px -628px;
+}
+
+.pokemon.small.animated.drowzee {
+    animation: animate-drowzee 0.25s steps(2) infinite;
+}
+
+@keyframes animate-drowzee {
+    from { background-position: -941px -596px; }
+    to { background-position: -941px -660px; }
 }
 
 .pokemon.front.hypno {
@@ -1570,6 +2434,15 @@
     background-position: -1103px -628px;
 }
 
+.pokemon.small.animated.hypno {
+    animation: animate-hypno 0.25s steps(2) infinite;
+}
+
+@keyframes animate-hypno {
+    from { background-position: -1103px -596px; }
+    to { background-position: -1103px -660px; }
+}
+
 .pokemon.front.krabby {
     background-position: -1134px -594px;
 }
@@ -1584,6 +2457,15 @@
 
 .pokemon.small.small-down.krabby {
     background-position: -1265px -628px;
+}
+
+.pokemon.small.animated.krabby {
+    animation: animate-krabby 0.25s steps(2) infinite;
+}
+
+@keyframes animate-krabby {
+    from { background-position: -1265px -596px; }
+    to { background-position: -1265px -660px; }
 }
 
 .pokemon.front.kingler {
@@ -1602,6 +2484,15 @@
     background-position: -1427px -628px;
 }
 
+.pokemon.small.animated.kingler {
+    animation: animate-kingler 0.25s steps(2) infinite;
+}
+
+@keyframes animate-kingler {
+    from { background-position: -1427px -596px; }
+    to { background-position: -1427px -660px; }
+}
+
 .pokemon.front.voltorb {
     background-position: -1458px -594px;
 }
@@ -1616,6 +2507,15 @@
 
 .pokemon.small.small-down.voltorb {
     background-position: -1589px -628px;
+}
+
+.pokemon.small.animated.voltorb {
+    animation: animate-voltorb 0.25s steps(2) infinite;
+}
+
+@keyframes animate-voltorb {
+    from { background-position: -1589px -596px; }
+    to { background-position: -1589px -660px; }
 }
 
 .pokemon.front.electrode {
@@ -1634,6 +2534,15 @@
     background-position: -131px -694px;
 }
 
+.pokemon.small.animated.electrode {
+    animation: animate-electrode 0.25s steps(2) infinite;
+}
+
+@keyframes animate-electrode {
+    from { background-position: -131px -662px; }
+    to { background-position: -131px -726px; }
+}
+
 .pokemon.front.exeggcute {
     background-position: -162px -660px;
 }
@@ -1648,6 +2557,15 @@
 
 .pokemon.small.small-down.exeggcute {
     background-position: -293px -694px;
+}
+
+.pokemon.small.animated.exeggcute {
+    animation: animate-exeggcute 0.25s steps(2) infinite;
+}
+
+@keyframes animate-exeggcute {
+    from { background-position: -293px -662px; }
+    to { background-position: -293px -726px; }
 }
 
 .pokemon.front.exeggutor {
@@ -1666,6 +2584,15 @@
     background-position: -455px -694px;
 }
 
+.pokemon.small.animated.exeggutor {
+    animation: animate-exeggutor 0.25s steps(2) infinite;
+}
+
+@keyframes animate-exeggutor {
+    from { background-position: -455px -662px; }
+    to { background-position: -455px -726px; }
+}
+
 .pokemon.front.cubone {
     background-position: -486px -660px;
 }
@@ -1680,6 +2607,15 @@
 
 .pokemon.small.small-down.cubone {
     background-position: -617px -694px;
+}
+
+.pokemon.small.animated.cubone {
+    animation: animate-cubone 0.25s steps(2) infinite;
+}
+
+@keyframes animate-cubone {
+    from { background-position: -617px -662px; }
+    to { background-position: -617px -726px; }
 }
 
 .pokemon.front.marowak {
@@ -1698,6 +2634,15 @@
     background-position: -779px -694px;
 }
 
+.pokemon.small.animated.marowak {
+    animation: animate-marowak 0.25s steps(2) infinite;
+}
+
+@keyframes animate-marowak {
+    from { background-position: -779px -662px; }
+    to { background-position: -779px -726px; }
+}
+
 .pokemon.front.hitmonlee {
     background-position: -810px -660px;
 }
@@ -1712,6 +2657,15 @@
 
 .pokemon.small.small-down.hitmonlee {
     background-position: -941px -694px;
+}
+
+.pokemon.small.animated.hitmonlee {
+    animation: animate-hitmonlee 0.25s steps(2) infinite;
+}
+
+@keyframes animate-hitmonlee {
+    from { background-position: -941px -662px; }
+    to { background-position: -941px -726px; }
 }
 
 .pokemon.front.himonchan {
@@ -1730,6 +2684,15 @@
     background-position: -1103px -694px;
 }
 
+.pokemon.small.animated.himonchan {
+    animation: animate-himonchan 0.25s steps(2) infinite;
+}
+
+@keyframes animate-himonchan {
+    from { background-position: -1103px -662px; }
+    to { background-position: -1103px -726px; }
+}
+
 .pokemon.front.lickitung {
     background-position: -1134px -660px;
 }
@@ -1744,6 +2707,15 @@
 
 .pokemon.small.small-down.lickitung {
     background-position: -1265px -694px;
+}
+
+.pokemon.small.animated.lickitung {
+    animation: animate-lickitung 0.25s steps(2) infinite;
+}
+
+@keyframes animate-lickitung {
+    from { background-position: -1265px -662px; }
+    to { background-position: -1265px -726px; }
 }
 
 .pokemon.front.koffing {
@@ -1762,6 +2734,15 @@
     background-position: -1427px -694px;
 }
 
+.pokemon.small.animated.koffing {
+    animation: animate-koffing 0.25s steps(2) infinite;
+}
+
+@keyframes animate-koffing {
+    from { background-position: -1427px -662px; }
+    to { background-position: -1427px -726px; }
+}
+
 .pokemon.front.weezing {
     background-position: -1458px -660px;
 }
@@ -1776,6 +2757,15 @@
 
 .pokemon.small.small-down.weezing {
     background-position: -1589px -694px;
+}
+
+.pokemon.small.animated.weezing {
+    animation: animate-weezing 0.25s steps(2) infinite;
+}
+
+@keyframes animate-weezing {
+    from { background-position: -1589px -662px; }
+    to { background-position: -1589px -726px; }
 }
 
 .pokemon.front.rhyhorn {
@@ -1794,6 +2784,15 @@
     background-position: -131px -760px;
 }
 
+.pokemon.small.animated.rhyhorn {
+    animation: animate-rhyhorn 0.25s steps(2) infinite;
+}
+
+@keyframes animate-rhyhorn {
+    from { background-position: -131px -728px; }
+    to { background-position: -131px -792px; }
+}
+
 .pokemon.front.rhydon {
     background-position: -162px -726px;
 }
@@ -1808,6 +2807,15 @@
 
 .pokemon.small.small-down.rhydon {
     background-position: -293px -760px;
+}
+
+.pokemon.small.animated.rhydon {
+    animation: animate-rhydon 0.25s steps(2) infinite;
+}
+
+@keyframes animate-rhydon {
+    from { background-position: -293px -728px; }
+    to { background-position: -293px -792px; }
 }
 
 .pokemon.front.chansey {
@@ -1826,6 +2834,15 @@
     background-position: -455px -760px;
 }
 
+.pokemon.small.animated.chansey {
+    animation: animate-chansey 0.25s steps(2) infinite;
+}
+
+@keyframes animate-chansey {
+    from { background-position: -455px -728px; }
+    to { background-position: -455px -792px; }
+}
+
 .pokemon.front.tangela {
     background-position: -486px -726px;
 }
@@ -1840,6 +2857,15 @@
 
 .pokemon.small.small-down.tangela {
     background-position: -617px -760px;
+}
+
+.pokemon.small.animated.tangela {
+    animation: animate-tangela 0.25s steps(2) infinite;
+}
+
+@keyframes animate-tangela {
+    from { background-position: -617px -728px; }
+    to { background-position: -617px -792px; }
 }
 
 .pokemon.front.kangaskhan {
@@ -1858,6 +2884,15 @@
     background-position: -779px -760px;
 }
 
+.pokemon.small.animated.kangaskhan {
+    animation: animate-kangaskhan 0.25s steps(2) infinite;
+}
+
+@keyframes animate-kangaskhan {
+    from { background-position: -779px -728px; }
+    to { background-position: -779px -792px; }
+}
+
 .pokemon.front.horsea {
     background-position: -810px -726px;
 }
@@ -1872,6 +2907,15 @@
 
 .pokemon.small.small-down.horsea {
     background-position: -941px -760px;
+}
+
+.pokemon.small.animated.horsea {
+    animation: animate-horsea 0.25s steps(2) infinite;
+}
+
+@keyframes animate-horsea {
+    from { background-position: -941px -728px; }
+    to { background-position: -941px -792px; }
 }
 
 .pokemon.front.seadra {
@@ -1890,6 +2934,15 @@
     background-position: -1103px -760px;
 }
 
+.pokemon.small.animated.seadra {
+    animation: animate-seadra 0.25s steps(2) infinite;
+}
+
+@keyframes animate-seadra {
+    from { background-position: -1103px -728px; }
+    to { background-position: -1103px -792px; }
+}
+
 .pokemon.front.goldeen {
     background-position: -1134px -726px;
 }
@@ -1904,6 +2957,15 @@
 
 .pokemon.small.small-down.goldeen {
     background-position: -1265px -760px;
+}
+
+.pokemon.small.animated.goldeen {
+    animation: animate-goldeen 0.25s steps(2) infinite;
+}
+
+@keyframes animate-goldeen {
+    from { background-position: -1265px -728px; }
+    to { background-position: -1265px -792px; }
 }
 
 .pokemon.front.seaking {
@@ -1922,6 +2984,15 @@
     background-position: -1427px -760px;
 }
 
+.pokemon.small.animated.seaking {
+    animation: animate-seaking 0.25s steps(2) infinite;
+}
+
+@keyframes animate-seaking {
+    from { background-position: -1427px -728px; }
+    to { background-position: -1427px -792px; }
+}
+
 .pokemon.front.staryu {
     background-position: -1458px -726px;
 }
@@ -1936,6 +3007,15 @@
 
 .pokemon.small.small-down.staryu {
     background-position: -1589px -760px;
+}
+
+.pokemon.small.animated.staryu {
+    animation: animate-staryu 0.25s steps(2) infinite;
+}
+
+@keyframes animate-staryu {
+    from { background-position: -1589px -728px; }
+    to { background-position: -1589px -792px; }
 }
 
 .pokemon.front.starmie {
@@ -1954,6 +3034,15 @@
     background-position: -131px -826px;
 }
 
+.pokemon.small.animated.starmie {
+    animation: animate-starmie 0.25s steps(2) infinite;
+}
+
+@keyframes animate-starmie {
+    from { background-position: -131px -794px; }
+    to { background-position: -131px -858px; }
+}
+
 .pokemon.front.mr-mime {
     background-position: -162px -792px;
 }
@@ -1968,6 +3057,15 @@
 
 .pokemon.small.small-down.mr-mime {
     background-position: -293px -826px;
+}
+
+.pokemon.small.animated.mr-mime {
+    animation: animate-mr-mime 0.25s steps(2) infinite;
+}
+
+@keyframes animate-mr-mime {
+    from { background-position: -293px -794px; }
+    to { background-position: -293px -858px; }
 }
 
 .pokemon.front.scyther {
@@ -1986,6 +3084,15 @@
     background-position: -455px -826px;
 }
 
+.pokemon.small.animated.scyther {
+    animation: animate-scyther 0.25s steps(2) infinite;
+}
+
+@keyframes animate-scyther {
+    from { background-position: -455px -794px; }
+    to { background-position: -455px -858px; }
+}
+
 .pokemon.front.jynx {
     background-position: -486px -792px;
 }
@@ -2000,6 +3107,15 @@
 
 .pokemon.small.small-down.jynx {
     background-position: -617px -826px;
+}
+
+.pokemon.small.animated.jynx {
+    animation: animate-jynx 0.25s steps(2) infinite;
+}
+
+@keyframes animate-jynx {
+    from { background-position: -617px -794px; }
+    to { background-position: -617px -858px; }
 }
 
 .pokemon.front.electabuzz {
@@ -2018,6 +3134,15 @@
     background-position: -779px -826px;
 }
 
+.pokemon.small.animated.electabuzz {
+    animation: animate-electabuzz 0.25s steps(2) infinite;
+}
+
+@keyframes animate-electabuzz {
+    from { background-position: -779px -794px; }
+    to { background-position: -779px -858px; }
+}
+
 .pokemon.front.magmar {
     background-position: -810px -792px;
 }
@@ -2032,6 +3157,15 @@
 
 .pokemon.small.small-down.magmar {
     background-position: -941px -826px;
+}
+
+.pokemon.small.animated.magmar {
+    animation: animate-magmar 0.25s steps(2) infinite;
+}
+
+@keyframes animate-magmar {
+    from { background-position: -941px -794px; }
+    to { background-position: -941px -858px; }
 }
 
 .pokemon.front.pinsir {
@@ -2050,6 +3184,15 @@
     background-position: -1103px -826px;
 }
 
+.pokemon.small.animated.pinsir {
+    animation: animate-pinsir 0.25s steps(2) infinite;
+}
+
+@keyframes animate-pinsir {
+    from { background-position: -1103px -794px; }
+    to { background-position: -1103px -858px; }
+}
+
 .pokemon.front.tauros {
     background-position: -1134px -792px;
 }
@@ -2064,6 +3207,15 @@
 
 .pokemon.small.small-down.tauros {
     background-position: -1265px -826px;
+}
+
+.pokemon.small.animated.tauros {
+    animation: animate-tauros 0.25s steps(2) infinite;
+}
+
+@keyframes animate-tauros {
+    from { background-position: -1265px -794px; }
+    to { background-position: -1265px -858px; }
 }
 
 .pokemon.front.magikarp {
@@ -2082,6 +3234,15 @@
     background-position: -1427px -826px;
 }
 
+.pokemon.small.animated.magikarp {
+    animation: animate-magikarp 0.25s steps(2) infinite;
+}
+
+@keyframes animate-magikarp {
+    from { background-position: -1427px -794px; }
+    to { background-position: -1427px -858px; }
+}
+
 .pokemon.front.gyarados {
     background-position: -1458px -792px;
 }
@@ -2096,6 +3257,15 @@
 
 .pokemon.small.small-down.gyarados {
     background-position: -1589px -826px;
+}
+
+.pokemon.small.animated.gyarados {
+    animation: animate-gyarados 0.25s steps(2) infinite;
+}
+
+@keyframes animate-gyarados {
+    from { background-position: -1589px -794px; }
+    to { background-position: -1589px -858px; }
 }
 
 .pokemon.front.lapras {
@@ -2114,6 +3284,15 @@
     background-position: -131px -892px;
 }
 
+.pokemon.small.animated.lapras {
+    animation: animate-lapras 0.25s steps(2) infinite;
+}
+
+@keyframes animate-lapras {
+    from { background-position: -131px -860px; }
+    to { background-position: -131px -924px; }
+}
+
 .pokemon.front.ditto {
     background-position: -162px -858px;
 }
@@ -2128,6 +3307,15 @@
 
 .pokemon.small.small-down.ditto {
     background-position: -293px -892px;
+}
+
+.pokemon.small.animated.ditto {
+    animation: animate-ditto 0.25s steps(2) infinite;
+}
+
+@keyframes animate-ditto {
+    from { background-position: -293px -860px; }
+    to { background-position: -293px -924px; }
 }
 
 .pokemon.front.eevee {
@@ -2146,6 +3334,15 @@
     background-position: -455px -892px;
 }
 
+.pokemon.small.animated.eevee {
+    animation: animate-eevee 0.25s steps(2) infinite;
+}
+
+@keyframes animate-eevee {
+    from { background-position: -455px -860px; }
+    to { background-position: -455px -924px; }
+}
+
 .pokemon.front.vaporeon {
     background-position: -486px -858px;
 }
@@ -2160,6 +3357,15 @@
 
 .pokemon.small.small-down.vaporeon {
     background-position: -617px -892px;
+}
+
+.pokemon.small.animated.vaporeon {
+    animation: animate-vaporeon 0.25s steps(2) infinite;
+}
+
+@keyframes animate-vaporeon {
+    from { background-position: -617px -860px; }
+    to { background-position: -617px -924px; }
 }
 
 .pokemon.front.jolteon {
@@ -2178,6 +3384,15 @@
     background-position: -779px -892px;
 }
 
+.pokemon.small.animated.jolteon {
+    animation: animate-jolteon 0.25s steps(2) infinite;
+}
+
+@keyframes animate-jolteon {
+    from { background-position: -779px -860px; }
+    to { background-position: -779px -924px; }
+}
+
 .pokemon.front.flareon {
     background-position: -810px -858px;
 }
@@ -2192,6 +3407,15 @@
 
 .pokemon.small.small-down.flareon {
     background-position: -941px -892px;
+}
+
+.pokemon.small.animated.flareon {
+    animation: animate-flareon 0.25s steps(2) infinite;
+}
+
+@keyframes animate-flareon {
+    from { background-position: -941px -860px; }
+    to { background-position: -941px -924px; }
 }
 
 .pokemon.front.porygon {
@@ -2210,6 +3434,15 @@
     background-position: -1103px -892px;
 }
 
+.pokemon.small.animated.porygon {
+    animation: animate-porygon 0.25s steps(2) infinite;
+}
+
+@keyframes animate-porygon {
+    from { background-position: -1103px -860px; }
+    to { background-position: -1103px -924px; }
+}
+
 .pokemon.front.omanyte {
     background-position: -1134px -858px;
 }
@@ -2224,6 +3457,15 @@
 
 .pokemon.small.small-down.omanyte {
     background-position: -1265px -892px;
+}
+
+.pokemon.small.animated.omanyte {
+    animation: animate-omanyte 0.25s steps(2) infinite;
+}
+
+@keyframes animate-omanyte {
+    from { background-position: -1265px -860px; }
+    to { background-position: -1265px -924px; }
 }
 
 .pokemon.front.omastar {
@@ -2242,6 +3484,15 @@
     background-position: -1427px -892px;
 }
 
+.pokemon.small.animated.omastar {
+    animation: animate-omastar 0.25s steps(2) infinite;
+}
+
+@keyframes animate-omastar {
+    from { background-position: -1427px -860px; }
+    to { background-position: -1427px -924px; }
+}
+
 .pokemon.front.kabuto {
     background-position: -1458px -858px;
 }
@@ -2256,6 +3507,15 @@
 
 .pokemon.small.small-down.kabuto {
     background-position: -1589px -892px;
+}
+
+.pokemon.small.animated.kabuto {
+    animation: animate-kabuto 0.25s steps(2) infinite;
+}
+
+@keyframes animate-kabuto {
+    from { background-position: -1589px -860px; }
+    to { background-position: -1589px -924px; }
 }
 
 .pokemon.front.kabutops {
@@ -2274,6 +3534,15 @@
     background-position: -131px -958px;
 }
 
+.pokemon.small.animated.kabutops {
+    animation: animate-kabutops 0.25s steps(2) infinite;
+}
+
+@keyframes animate-kabutops {
+    from { background-position: -131px -926px; }
+    to { background-position: -131px -990px; }
+}
+
 .pokemon.front.aerodactyl {
     background-position: -162px -924px;
 }
@@ -2288,6 +3557,15 @@
 
 .pokemon.small.small-down.aerodactyl {
     background-position: -293px -958px;
+}
+
+.pokemon.small.animated.aerodactyl {
+    animation: animate-aerodactyl 0.25s steps(2) infinite;
+}
+
+@keyframes animate-aerodactyl {
+    from { background-position: -293px -926px; }
+    to { background-position: -293px -990px; }
 }
 
 .pokemon.front.snorlax {
@@ -2306,6 +3584,15 @@
     background-position: -455px -958px;
 }
 
+.pokemon.small.animated.snorlax {
+    animation: animate-snorlax 0.25s steps(2) infinite;
+}
+
+@keyframes animate-snorlax {
+    from { background-position: -455px -926px; }
+    to { background-position: -455px -990px; }
+}
+
 .pokemon.front.articuno {
     background-position: -486px -924px;
 }
@@ -2320,6 +3607,15 @@
 
 .pokemon.small.small-down.articuno {
     background-position: -617px -958px;
+}
+
+.pokemon.small.animated.articuno {
+    animation: animate-articuno 0.25s steps(2) infinite;
+}
+
+@keyframes animate-articuno {
+    from { background-position: -617px -926px; }
+    to { background-position: -617px -990px; }
 }
 
 .pokemon.front.zapdos {
@@ -2338,6 +3634,15 @@
     background-position: -779px -958px;
 }
 
+.pokemon.small.animated.zapdos {
+    animation: animate-zapdos 0.25s steps(2) infinite;
+}
+
+@keyframes animate-zapdos {
+    from { background-position: -779px -926px; }
+    to { background-position: -779px -990px; }
+}
+
 .pokemon.front.moltres {
     background-position: -810px -924px;
 }
@@ -2352,6 +3657,15 @@
 
 .pokemon.small.small-down.moltres {
     background-position: -941px -958px;
+}
+
+.pokemon.small.animated.moltres {
+    animation: animate-moltres 0.25s steps(2) infinite;
+}
+
+@keyframes animate-moltres {
+    from { background-position: -941px -926px; }
+    to { background-position: -941px -990px; }
 }
 
 .pokemon.front.dratini {
@@ -2370,6 +3684,15 @@
     background-position: -1103px -958px;
 }
 
+.pokemon.small.animated.dratini {
+    animation: animate-dratini 0.25s steps(2) infinite;
+}
+
+@keyframes animate-dratini {
+    from { background-position: -1103px -926px; }
+    to { background-position: -1103px -990px; }
+}
+
 .pokemon.front.dragonair {
     background-position: -1134px -924px;
 }
@@ -2384,6 +3707,15 @@
 
 .pokemon.small.small-down.dragonair {
     background-position: -1265px -958px;
+}
+
+.pokemon.small.animated.dragonair {
+    animation: animate-dragonair 0.25s steps(2) infinite;
+}
+
+@keyframes animate-dragonair {
+    from { background-position: -1265px -926px; }
+    to { background-position: -1265px -990px; }
 }
 
 .pokemon.front.dragonite {
@@ -2402,6 +3734,15 @@
     background-position: -1427px -958px;
 }
 
+.pokemon.small.animated.dragonite {
+    animation: animate-dragonite 0.25s steps(2) infinite;
+}
+
+@keyframes animate-dragonite {
+    from { background-position: -1427px -926px; }
+    to { background-position: -1427px -990px; }
+}
+
 .pokemon.front.mewtwo {
     background-position: -1458px -924px;
 }
@@ -2416,6 +3757,15 @@
 
 .pokemon.small.small-down.mewtwo {
     background-position: -1589px -958px;
+}
+
+.pokemon.small.animated.mewtwo {
+    animation: animate-mewtwo 0.25s steps(2) infinite;
+}
+
+@keyframes animate-mewtwo {
+    from { background-position: -1589px -926px; }
+    to { background-position: -1589px -990px; }
 }
 
 .pokemon.front.mew {
@@ -2434,4 +3784,11 @@
     background-position: -131px -1024px;
 }
 
+.pokemon.small.animated.mew {
+    animation: animate-mew 0.25s steps(2) infinite;
+}
 
+@keyframes animate-mew {
+    from { background-position: -131px -992px; }
+    to { background-position: -131px -1056px; }
+}

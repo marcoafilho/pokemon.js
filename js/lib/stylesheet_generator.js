@@ -43,6 +43,15 @@ var StylesheetGenerator = function(module) {
             style += '.pokemon.small.small-down.' + pokemonClassName + ' {\n';
             style += '    background-position: ' + backgroundPosition((index % 10) * 162 + 131, Math.floor(index / 10) * 66 + 34) + ';\n';
             style += '}\n\n';
+
+            style += '.pokemon.small.animated.' + pokemonClassName + ' {\n';
+            style += '    animation: animate-' + pokemonClassName + ' 0.25s steps(2) infinite;\n'
+            style += '}\n\n'
+
+            style += '@keyframes animate-' + pokemonClassName + ' {\n';
+            style += '    from { background-position: ' + backgroundPosition((index % 10) * 162 + 131, Math.floor(index / 10) * 66 + 2) + '; }\n';
+            style += '    to { background-position: ' + backgroundPosition((index % 10) * 162 + 131, Math.floor(index / 10) * 66 + 66) + '; }\n';
+            style += '}\n\n'
         });
 
         return style;
