@@ -468,27 +468,27 @@
     to { background-position: -1265px -132px; }
 }
 
-.pokemon.front.ratata {
+.pokemon.front.rattata {
     background-position: -1296px -66px;
 }
 
-.pokemon.back.ratata {
+.pokemon.back.rattata {
     background-position: -1362px -66px;
 }
 
-.pokemon.small.small-up.ratata {
+.pokemon.small.small-up.rattata {
     background-position: -1427px -68px;
 }
 
-.pokemon.small.small-down.ratata {
+.pokemon.small.small-down.rattata {
     background-position: -1427px -100px;
 }
 
-.pokemon.small.animated.ratata {
-    animation: animate-ratata 0.25s steps(2) infinite;
+.pokemon.small.animated.rattata {
+    animation: animate-rattata 0.25s steps(2) infinite;
 }
 
-@keyframes animate-ratata {
+@keyframes animate-rattata {
     from { background-position: -1427px -68px; }
     to { background-position: -1427px -132px; }
 }
@@ -1643,27 +1643,27 @@
     to { background-position: -779px -462px; }
 }
 
-.pokemon.front.macho {
+.pokemon.front.machop {
     background-position: -810px -396px;
 }
 
-.pokemon.back.macho {
+.pokemon.back.machop {
     background-position: -876px -396px;
 }
 
-.pokemon.small.small-up.macho {
+.pokemon.small.small-up.machop {
     background-position: -941px -398px;
 }
 
-.pokemon.small.small-down.macho {
+.pokemon.small.small-down.machop {
     background-position: -941px -430px;
 }
 
-.pokemon.small.animated.macho {
-    animation: animate-macho 0.25s steps(2) infinite;
+.pokemon.small.animated.machop {
+    animation: animate-machop 0.25s steps(2) infinite;
 }
 
-@keyframes animate-macho {
+@keyframes animate-machop {
     from { background-position: -941px -398px; }
     to { background-position: -941px -462px; }
 }
@@ -2668,27 +2668,27 @@
     to { background-position: -941px -726px; }
 }
 
-.pokemon.front.himonchan {
+.pokemon.front.hitmonchan {
     background-position: -972px -660px;
 }
 
-.pokemon.back.himonchan {
+.pokemon.back.hitmonchan {
     background-position: -1038px -660px;
 }
 
-.pokemon.small.small-up.himonchan {
+.pokemon.small.small-up.hitmonchan {
     background-position: -1103px -662px;
 }
 
-.pokemon.small.small-down.himonchan {
+.pokemon.small.small-down.hitmonchan {
     background-position: -1103px -694px;
 }
 
-.pokemon.small.animated.himonchan {
-    animation: animate-himonchan 0.25s steps(2) infinite;
+.pokemon.small.animated.hitmonchan {
+    animation: animate-hitmonchan 0.25s steps(2) infinite;
 }
 
-@keyframes animate-himonchan {
+@keyframes animate-hitmonchan {
     from { background-position: -1103px -662px; }
     to { background-position: -1103px -726px; }
 }
