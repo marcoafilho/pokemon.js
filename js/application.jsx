@@ -1,3 +1,6 @@
+var React = require('react');
+var ReactDOM = require('react-dom');
+
 var Pokemon = function(attributes) {
     this.id = attributes.id;
 
@@ -27,8 +30,9 @@ var samplePokemon = function () {
 };
 
 var PokemonSelector = React.createClass({
-  handleSubmit: function () {
+  handleSubmit: function (event) {
     event.preventDefault();
+
     var input = this.refs.pokemonName;
     this.props.addPokemon(input.value);
   },
