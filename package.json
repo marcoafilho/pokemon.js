@@ -1,0 +1,30 @@
+{
+  "name": "pokemon.js",
+  "version": "0.0.5",
+  "description": "A sandbox project where JavaScript skill are put into test.",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoafilho/pokemon.js.git"
+  },
+  "author": "Marco Antonio Almeida @marcoafilho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoafilho/pokemon.js/issues"
+  },
+  "homepage": "https://github.com/marcoafilho/pokemon.js#readme"
+}
