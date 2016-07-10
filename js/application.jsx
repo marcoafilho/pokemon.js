@@ -524,6 +524,10 @@ var Game = React.createClass({
     var component = this
     var nextIndex
 
+    if (!playerPokemon.isAlive()) {
+      return
+    }
+
     opponentPokemon.currentHp -= Math.min(this.damage(playerPokemon, opponentPokemon), opponentPokemon.currentHp)
     this.log(playerPokemon.name + ' used TACKLE')
     if (opponentPokemon.currentHp <= 0) {
