@@ -1,19 +1,16 @@
 module.exports = {
-  context: __dirname + '/js',
-  entry: ['./application.jsx'],
+  entry: ['./js/application.jsx'],
   output: {
-    path: __dirname + '/js',
-    filename: 'bundle.js'
+    path: './build/',
+    filename: 'bundle.js',
+    publicPath: '/build/'
   },
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: ['babel'],
-        query: {
-          presets: ['react']
-        }
+        loaders: ['babel', 'eslint'],
       }
     ]
   }
