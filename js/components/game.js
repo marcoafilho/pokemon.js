@@ -1,9 +1,10 @@
-import { db } from '../db'
+import db from '../db'
 import Pokemon from '../models/pokemon'
+import Trainer from '../models/trainer'
 import React from 'react'
 
 import PokemonSelector from './pokemon_selector'
-import Trainer from './trainer'
+import TrainerMenu from './trainer_menu'
 import Pokedex from './pokedex'
 import Log from './log'
 import StartBattleButton from './start_battle_button'
@@ -17,11 +18,13 @@ var samplePokemon = function () {
 
 class Game extends React.Component {
   constructor (props) {
+    let player = new Trainer()
     super(props)
     this.state = {
       phase: 'selection',
       opponentAvatar: db.trainers[Math.floor(Math.random() * db.trainers.length)].replace(/\W+/g, '-').toLowerCase(),
-      playerPokemons: [],
+      player: player,
+      playerPokemons: player.pokemons,
       opponentPokemons: [],
       activePokemon: null,
       message: '',
@@ -36,6 +39,21 @@ class Game extends React.Component {
     this.log = this.log.bind(this)
     this.setPhase = this.setPhase.bind(this)
     this.damagePokemon = this.damagePokemon.bind(this)
+  }
+
+  componentDidMount () {
+    let component = this
+    document.addEventListener('challengeAccepted', function () {
+      component.setState({ opponent: new Trainer() })
+      console.log(component.state.opponent)
+    })
+
+    document.addEventListener('opponentNewPokemon', function (event) {
+      let pokemon = new Pokemon(event.detail)
+      let opponentPokemons = component.state.opponentPokemons
+      opponentPokemons.push(pokemon)
+      component.setState({ opponentPokemons: opponentPokemons })
+    })
   }
 
   generateRandomPokemons (list) {
@@ -61,6 +79,8 @@ class Game extends React.Component {
     playerPokemons.push(pokemon)
     this.setState({ playerPokemons: playerPokemons })
 
+    let newPokemon = new window.CustomEvent('newPokemon', { detail: pokemon })
+    document.dispatchEvent(newPokemon)
     return true
   }
 
@@ -118,11 +138,12 @@ class Game extends React.Component {
   }
 
   render () {
+    console.log(this.state)
     let template
     let currentPlayerPokemon
     let currentOpponentPokemon
 
-    this.generateRandomPokemons(this.state.opponentPokemons)
+    // this.generateRandomPokemons(this.state.opponentPokemons)
 
     switch (this.state.phase) {
       case 'selection':
@@ -135,10 +156,10 @@ class Game extends React.Component {
             </div>
             <div className='row'>
               <div className='col-xs-6'>
-                <Trainer owner='player' pokemons={this.state.playerPokemons} showInPokedex={this.showInPokedex} />
+                <TrainerMenu owner='player' pokemons={this.state.playerPokemons} showInPokedex={this.showInPokedex} />
               </div>
               <div className='col-xs-6'>
-                <Trainer owner='opponent' avatar={this.state.opponentAvatar} pokemons={this.state.opponentPokemons} />
+                <TrainerMenu owner='opponent' currentOpponent={this.state.opponent} avatar={this.state.opponentAvatar} pokemons={this.state.opponentPokemons} />
               </div>
             </div>
             <div className='row'>
@@ -166,10 +187,21 @@ class Game extends React.Component {
           <div className='container'>
             <div className='row'>
               <div className='col-xs-6'>
-                <Trainer owner='player' pokemons={this.state.playerPokemons} showInPokedex={this.showInPokedex} activePokemon={currentPlayerPokemon} />
+                <TrainerMenu
+                  owner='player'
+                  pokemons={this.state.playerPokemons}
+                  showInPokedex={this.showInPokedex}
+                  activePokemon={currentPlayerPokemon}
+                />
               </div>
               <div className='col-xs-6'>
-                <Trainer owner='opponent' avatar={this.state.opponentAvatar} pokemons={this.state.opponentPokemons} activePokemon={currentOpponentPokemon} />
+                <TrainerMenu
+                  owner='opponent'
+                  currentOpponent={this.state.opponent}
+                  avatar={this.state.opponentAvatar}
+                  pokemons={this.state.opponentPokemons}
+                  activePokemon={currentOpponentPokemon}
+                />
               </div>
             </div>
             <div className='row top-buffer'>
