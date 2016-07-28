@@ -1,4 +1,4 @@
-export var db = {
+let db = {
   pokemons: [
     'Bulbasaur', 'Ivysaur', 'Venusaur', 'Charmander', 'Charmeleon', 'Charizard', 'Squirtle', 'Wartortle', 'Blastoise', 'Caterpie',
     'Metapod', 'Butterfree', 'Weedle', 'Kakuna', 'Beedrill', 'Pidgey', 'Pidgeotto', 'Pidgeot', 'Rattata', 'Raticate',
@@ -41,3 +41,5 @@ export var db = {
     'Dawn Alternative'
   ]
 }
+
+module.exports = db

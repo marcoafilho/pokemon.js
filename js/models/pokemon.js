@@ -24,4 +24,4 @@ class Pokemon {
   }
 }
 
-export default Pokemon
+module.exports = Pokemon

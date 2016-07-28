@@ -1,11 +1,13 @@
 {
   "name": "pokemon.js",
   "version": "0.0.5",
-  "description": "A sandbox project where JavaScript skill are put into test.",
+  "description": "A sandbox project where JavaScript skills are put into test.",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.14.0",
     "react": "^15.2.1",
-    "react-dom": "^15.2.1"
+    "react-dom": "^15.2.1",
+    "socket.io": "^1.4.8"
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
